@@ -1,8 +1,8 @@
 <?php
 
-namespace App\Logic\Image;
+namespace App\Image;
 
-use App\Models\Image;
+use App\Image;
 use Illuminate\Support\Facades\Validator;
 use Illuminate\Support\Facades\Response;
 use Illuminate\Support\Facades\Config;

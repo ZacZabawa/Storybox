@@ -50,7 +50,7 @@ class kmlController extends Controller
 
 
 
-			DB::insert('insert into SampleKML (name, description, geompoint) VALUES ('$name', '$description', '$geom')');
+			// DB::insert('insert into SampleKML (name, description, geompoint) VALUES ('$name', '$description', '$geom')');
 				
 				
 			}

@@ -13,10 +13,10 @@ class KnowledgeController extends Controller
     	$knowledges = Knowledge::all();
 
     	return view('knowledge.index')->withKnowledge($knowledge);
-	}
+	
 
 	$contributors = contributor::lists('firstName','lastName','id');
-
+		}
     public function edit($id)
 	{
 	    $knowledge = Knowledge::findOrFail($id);

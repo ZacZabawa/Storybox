@@ -1,0 +1,88 @@
+@extends('layouts.app')
+
+
+  <head>
+    
+    <link data-require="bootstrap-css@3.2.0" data-semver="3.2.0" rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" />
+  
+    <script data-require="angular.js@1.2.21" data-semver="1.2.21" src="https://code.angularjs.org/1.2.21/angular.js"></script>
+    <link rel="stylesheet" href="table/style.css" />
+     <script type="text/javascript" src="table/js/script.js"></script> 
+     <script type="text/javascript" src="table/js/smart-table.debug.js"></script> 
+     <script type="text/javascript" src='table/js/InfiniteScrollPlugin.js'></script>
+     <script src="//cdn.datatables.net/1.10.7/js/jquery.dataTables.min.js"></script>
+   \
+  </head>
+
+@section("navbarContent")
+
+
+ 
+
+            <!-- Brand and toggle get grouped for better mobile display -->
+            
+            <!-- Collect the nav links, forms, and other content for toggling -->
+                <li ><a href="{{ url('/home') }}">Home</a></li>
+                <li><a href="#start">Record</a></li>
+                <li class="active"><a href="{{ url('/map') }}">Territory</a></li>
+                <li><a href="/map/addknowledge">Add Knowledge</a></li>
+                <li ><a href="{{ url('/table') }}">Table</a></li>
+                <li class="dropdown">
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Knowledge <span class="caret"></span></a>
+                  <ul class="dropdown-menu">
+                    
+                    <li><a href="single-no-sidebar.html">data table</a></li>
+                    <li><a href="empty.html">upload</a></li>
+                    <li><a href="contact.html">download</a></li>
+                    
+                  </ul>
+                </li>
+           
+              
+                    
+         
+
+        
+@endsection
+
+
+
+@section('content')
+  <hr>  
+
+  <body>
+    <table class="table table-bordered" id="users-table">
+		<thead>
+			<tr>
+				 <th>Id</th>
+		         <th>Name</th>
+		         <th>Email</th>
+		         <th>Created At</th>
+		         <th>Updated At</th>
+			</tr>
+		</thead>
+		
+   </table>
+@stop
+
+@push('scripts')
+<script>
+$(function() {
+    $('#users-table').DataTable({
+        processing: true,
+        serverSide: true,
+        ajax: '{!! route('datatables.data') !!}',
+        columns: [
+            { data: 'id', name: 'id' },
+            { data: 'name', name: 'name' },
+            { data: 'email', name: 'email' },
+            { data: 'created_at', name: 'created_at' },
+            { data: 'updated_at', name: 'updated_at' }
+        ]
+    });
+});
+</script>
+@endpush
+
+
+

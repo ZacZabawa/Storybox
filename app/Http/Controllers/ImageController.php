@@ -2,7 +2,7 @@
 
 namespace App\Http\Controllers;
 
-use App\Logic\Image\ImageRepository;
+use App\ImageRepository;
 use Illuminate\Support\Facades\Input;
 
 class ImageController extends Controller

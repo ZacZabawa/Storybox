@@ -1,0 +1,25 @@
+{
+  "name": "storybox1.0",
+  "description": "Place-based knowledge toolkit",
+  "main": "",
+  "authors": [
+    "Zac Zabawa <z.zabawa175@gmail.com>"
+  ],
+  "license": "MIT",
+  "moduleType": [],
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "1",
+    "angular-material": "^1.0.6",
+    "angular-ui-router": "ui-router#^0.2.18",
+    "restangular": "^1.5.2"
+  }
+}

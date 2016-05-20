@@ -28,16 +28,10 @@
 |
 */
 
-Route::get('media', ['as' => 'upload', 'uses' => 'ImageController@getUpload']);
-Route::post('upload', ['as' => 'upload-post', 'uses' =>'ImageController@postUpload']);
-Route::post('upload/delete', ['as' => 'upload-remove', 'uses' =>'ImageController@deleteUpload']);
 
 
-Route::get('media', 'MediasController@index');
-Route::get('media/get/{filename}', [
-	'as' => 'getentry', 'uses' => 'MediaController@get']);
-Route::post('media/add',[ 
-        'as' => 'addentry', 'uses' => 'MediaController@add']);
+
+
 
 
 
@@ -45,7 +39,9 @@ Route::group(['middleware' => 'web'], function () {
     Route::auth();
     Route::resource('users', 'UsersController');
     Route::resource('knowledge', 'knowledgeController');
-	Route::get('kml', 'kmlController@index');
+    Route::resource('media', 'MediaController');
+    Route::resource('contributors', 'ContributorController');
+    Route::get('kml', 'kmlController@index');
 	Route::post('kml', 'kmlController@store');
 	
 	Route::get('media', 'MediaController@index');

@@ -1,0 +1,2206 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>TEK Final point 1_18</name>
+	<description>---map description here---</description>
+	<Style id="style2">
+		<IconStyle>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Placemark>
+		<name>Grizzly Den</name>
+		<description>area identified during TEK meeting March 11th/12th 2015.</description>
+		<styleUrl>#style2</styleUrl>
+		<Point>
+			<coordinates>-122.2141238,50.76711491,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>swamp,moose and bear</name>
+		<description>area identified during TEK meeting march 11th/12th 2015.</description>
+		<styleUrl>#style2</styleUrl>
+		<Point>
+			<coordinates>-122.3805393,50.79300455,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>swamp</name>
+		<description>area identified during TEK meeting March 11th/12th 2015.</description>
+		<styleUrl>#style2</styleUrl>
+		<Point>
+			<coordinates>-122.4267329,50.83333523,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>retaskit graveyard</name>
+		<description>headstones in chinook language??</description>
+		<styleUrl>#style2</styleUrl>
+		<Point>
+			<coordinates>-122.0987401,50.693779,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Caves</name>
+		<description>Special place with multiple caves used by Japanese internment camp escapees</description>
+		<styleUrl>#style2</styleUrl>
+		<Point>
+			<coordinates>-122.0239601,50.68473528000001,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Found Packboard</name>
+		<description>found along old trail by rail crew</description>
+		<styleUrl>#style2</styleUrl>
+		<Point>
+			<coordinates>-122.1652386,50.7203201,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Scatcal</name>
+		<description>Meeting Place,twin lakes</description>
+		<styleUrl>#style2</styleUrl>
+		<Point>
+			<coordinates>-122.3881309,50.54516129,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Sqaxa7 Mountain</name>
+		<description>dog mountian</description>
+		<styleUrl>#style2</styleUrl>
+		<Point>
+			<coordinates>-122.4563762,50.59076376,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Head of Chief Pictograph</name>
+		<description>On big rock sticking out of slide</description>
+		<styleUrl>#style2</styleUrl>
+		<Point>
+			<coordinates>-122.4359173,50.57304318999999,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>scatcal</name>
+		<description>Meeting area table rock 3</description>
+		<styleUrl>#style2</styleUrl>
+		<Point>
+			<coordinates>-122.4498612,50.90023844000001,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Leole7ten</name>
+		<description>people tried to live here but died off. Above there.</description>
+		<styleUrl>#style2</styleUrl>
+		<Point>
+			<coordinates>-122.3597282,50.50808721999999,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Rock paintings and grave site</name>
+		<styleUrl>#style2</styleUrl>
+		<Point>
+			<coordinates>-122.0510175,50.81598129,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Tsil&apos;qotin lookout</name>
+		<styleUrl>#style2</styleUrl>
+		<Point>
+			<coordinates>-122.0683044,50.82036435,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Sk&apos;emqin</name>
+		<description>at the end of the lake a boy got left alone and was kicked around and formed a bump on the mountian</description>
+		<styleUrl>#style2</styleUrl>
+		<Point>
+			<coordinates>-121.9884009,50.66808434999999,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>kwel&apos;el&apos;a7</name>
+		<description>Little meadow,green or yellow.</description>
+		<styleUrl>#style2</styleUrl>
+		<Point>
+			<coordinates>-122.4058006,50.75510568,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Basalt</name>
+		<description>trail goes along creek</description>
+		<styleUrl>#style2</styleUrl>
+		<Point>
+			<coordinates>-122.9605858,50.70863702999999,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Untitled Placemark</name>
+		<description>Apa7 camp lost mans camp deep marshes</description>
+		<styleUrl>#style2</styleUrl>
+		<Point>
+			<coordinates>-122.9235337,51.12192005,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>upper/lower rd</name>
+		<styleUrl>#style2</styleUrl>
+		<Point>
+			<coordinates>-122.7158462,50.97072879,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>possible picto graph area.</name>
+		<styleUrl>#style2</styleUrl>
+		<Point>
+			<coordinates>-122.0263946,50.68697974,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>harvesting</name>
+		<description>ank,wild onions</description>
+		<styleUrl>#style2</styleUrl>
+		<Point>
+			<coordinates>-122.2027427,50.75586406,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>possible petrogliphs</name>
+		<description>albert Joseph  mentioned its only a 3ft wwide trail/</description>
+		<styleUrl>#style2</styleUrl>
+		<Point>
+			<coordinates>-122.2117789,50.78531526,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>trappers cabin</name>
+		<description>along trapping trail</description>
+		<styleUrl>#style2</styleUrl>
+		<Point>
+			<coordinates>-122.4807654,50.77917661000001,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>up on tommy creek camp</name>
+		<description>a cabin for miners/</description>
+		<styleUrl>#style2</styleUrl>
+		<Point>
+			<coordinates>-122.5540452,50.79252495,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Bob Creek</name>
+		<styleUrl>#style2</styleUrl>
+		<Point>
+			<coordinates>-122.604667,50.83481646,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>hotlas cabin</name>
+		<styleUrl>#style2</styleUrl>
+		<Point>
+			<coordinates>-122.374134,50.79683317000001,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>alexanders homestead</name>
+		<description>houses homes identified by carle alexanders.</description>
+		<styleUrl>#style2</styleUrl>
+		<Point>
+			<coordinates>-122.4481781,50.83615633,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>second camps</name>
+		<styleUrl>#style2</styleUrl>
+		<Point>
+			<coordinates>-122.3645093,50.81650115,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>ufo pictographs</name>
+		<description>ufo</description>
+		<styleUrl>#style2</styleUrl>
+		<Point>
+			<coordinates>-122.3344231,50.66178491,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>red hand print</name>
+		<styleUrl>#style2</styleUrl>
+		<Point>
+			<coordinates>-123.1639839,51.12874372,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Jamie Creek</name>
+		<styleUrl>#style2</styleUrl>
+		<Point>
+			<coordinates>-123.0268671,50.80314123,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>McParlan Creek</name>
+		<styleUrl>#style2</styleUrl>
+		<Point>
+			<coordinates>-123.297623,50.70198128,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Hurly River</name>
+		<styleUrl>#style2</styleUrl>
+		<Point>
+			<coordinates>-122.9271041,50.74059211,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Lone Goat Valley</name>
+		<styleUrl>#style2</styleUrl>
+		<Point>
+			<coordinates>-123.0298659,50.72419228,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Nicholls Creek</name>
+		<styleUrl>#style2</styleUrl>
+		<Point>
+			<coordinates>-123.3396891,50.89097925000001,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>McGillvrey Cabin</name>
+		<styleUrl>#style2</styleUrl>
+		<Point>
+			<coordinates>-122.5740199,50.67790239000001,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Pictograph</name>
+		<styleUrl>#style2</styleUrl>
+		<Point>
+			<coordinates>-122.214998,50.785661,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Cave</name>
+		<styleUrl>#style2</styleUrl>
+		<Point>
+			<coordinates>-122.2151646,50.78307121,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Cave</name>
+		<styleUrl>#style2</styleUrl>
+		<Point>
+			<coordinates>-122.2107672,50.78274368999999,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Carrol Lake</name>
+		<styleUrl>#style2</styleUrl>
+		<Point>
+			<coordinates>-122.4695486,50.86009416,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Pit Houses</name>
+		<styleUrl>#style2</styleUrl>
+		<Point>
+			<coordinates>-122.0462882,51.08916043,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>qwena&apos;kst k&apos;e&apos;ta&apos;</name>
+		<description>Territory Marker,Torture rock .</description>
+		<styleUrl>#style2</styleUrl>
+		<Point>
+			<coordinates>-122.4590058,51.15053318,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Red Arrow Marker</name>
+		<styleUrl>#style2</styleUrl>
+		<Point>
+			<coordinates>-121.6106641,50.79662758,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Moose Hunting</name>
+		<styleUrl>#style2</styleUrl>
+		<Point>
+			<coordinates>-122.2914048,50.84284030999999,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Raised up [Flat Rock]</name>
+		<description>Offering Table.</description>
+		<styleUrl>#style2</styleUrl>
+		<Point>
+			<coordinates>-122.4489529,50.88297318,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Horseshoe Bend</name>
+		<styleUrl>#style2</styleUrl>
+		<Point>
+			<coordinates>-122.1567008,50.86095057000001,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Bridge River Confluence</name>
+		<styleUrl>#style2</styleUrl>
+		<Point>
+			<coordinates>-121.9335931,50.75189684,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Xwisten</name>
+		<styleUrl>#style2</styleUrl>
+		<Point>
+			<coordinates>-121.9654024,50.77163355,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>pictographs</name>
+		<styleUrl>#style2</styleUrl>
+		<Point>
+			<coordinates>-122.1769508,50.87972586,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Unnamed Lake</name>
+		<styleUrl>#style2</styleUrl>
+		<Point>
+			<coordinates>-122.2991389,50.8447727,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Carpenter Reservoir</name>
+		<styleUrl>#style2</styleUrl>
+		<Point>
+			<coordinates>-122.2395344,50.78215834,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>village?</name>
+		<styleUrl>#style2</styleUrl>
+		<Point>
+			<coordinates>-122.1776691,50.87265472000001,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Old Sawmill Site</name>
+		<styleUrl>#style2</styleUrl>
+		<Point>
+			<coordinates>-122.2133467,50.89240437000001,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Horseshoe Valley</name>
+		<styleUrl>#style2</styleUrl>
+		<Point>
+			<coordinates>-122.1987015,50.89192372,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Secret Springs</name>
+		<styleUrl>#style2</styleUrl>
+		<Point>
+			<coordinates>-122.3682796,50.79931775,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Jones Creek</name>
+		<styleUrl>#style2</styleUrl>
+		<Point>
+			<coordinates>-122.4428134,50.84214195,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Jade Mountain</name>
+		<styleUrl>#style2</styleUrl>
+		<Point>
+			<coordinates>-122.284923,50.82979828,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Tommy Creek</name>
+		<styleUrl>#style2</styleUrl>
+		<Point>
+			<coordinates>-122.5259768,50.83444856999999,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Mission Ridge</name>
+		<styleUrl>#style2</styleUrl>
+		<Point>
+			<coordinates>-122.176005,50.76130024999999,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Wild onion, potato</name>
+		<styleUrl>#style2</styleUrl>
+		<Point>
+			<coordinates>-122.2040411,50.75591682999999,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Berry picking</name>
+		<styleUrl>#style2</styleUrl>
+		<Point>
+			<coordinates>-122.2175119,50.75590058000001,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Sheep, deer hunting</name>
+		<styleUrl>#style2</styleUrl>
+		<Point>
+			<coordinates>-122.1764389,50.77037960999999,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Nuts/Pine Cone/ Mushroom picking</name>
+		<styleUrl>#style2</styleUrl>
+		<Point>
+			<coordinates>-122.1681851,50.77042988,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Mission Ridge</name>
+		<styleUrl>#style2</styleUrl>
+		<Point>
+			<coordinates>-122.2892281,50.7427024,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Whitecap Creek</name>
+		<styleUrl>#style2</styleUrl>
+		<Point>
+			<coordinates>-122.3560995,50.72847762999999,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Keary Lake</name>
+		<styleUrl>#style2</styleUrl>
+		<Point>
+			<coordinates>-122.5031186,50.7749519,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Trapline cabin</name>
+		<styleUrl>#style2</styleUrl>
+		<Point>
+			<coordinates>-122.5566742,50.79044049,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Trapline cabin</name>
+		<styleUrl>#style2</styleUrl>
+		<Point>
+			<coordinates>-122.4826874,50.77817914,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Bobb Creek</name>
+		<styleUrl>#style2</styleUrl>
+		<Point>
+			<coordinates>-122.6177603,50.82733194,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Sawmill</name>
+		<styleUrl>#style2</styleUrl>
+		<Point>
+			<coordinates>-122.5249645,50.84319154,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>ngazlaq in mountian</name>
+		<description>Nosebag mountian,people bring rocks and put them on top of nosebag mnt.(Gaz)</description>
+		<styleUrl>#style2</styleUrl>
+		<Point>
+			<coordinates>-122.3853181,50.75097173,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Truax</name>
+		<styleUrl>#style2</styleUrl>
+		<Point>
+			<coordinates>-122.692017,50.8589874,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Village Site</name>
+		<styleUrl>#style2</styleUrl>
+		<Point>
+			<coordinates>-122.8305491,50.85867662,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Zumak fishing</name>
+		<styleUrl>#style2</styleUrl>
+		<Point>
+			<coordinates>-122.8277732,50.87076513,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Shared fishing area</name>
+		<styleUrl>#style2</styleUrl>
+		<Point>
+			<coordinates>-122.8501186,50.84557067,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Cabin</name>
+		<styleUrl>#style2</styleUrl>
+		<Point>
+			<coordinates>-122.376542,50.7976906,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Former wagon road</name>
+		<styleUrl>#style2</styleUrl>
+		<Point>
+			<coordinates>-122.2149663,50.73792443000001,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Hunting area</name>
+		<styleUrl>#style2</styleUrl>
+		<Point>
+			<coordinates>-122.3548251,50.80270082000001,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Alexander homestead</name>
+		<styleUrl>#style2</styleUrl>
+		<Point>
+			<coordinates>-122.4490581,50.83755671,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Cadwaller Creek</name>
+		<styleUrl>#style2</styleUrl>
+		<Point>
+			<coordinates>-122.7206101,50.74022542,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Former battle site</name>
+		<styleUrl>#style2</styleUrl>
+		<Point>
+			<coordinates>-122.2462709,50.74510163,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>sl&apos;a7cen</name>
+		<description>lost valley</description>
+		<styleUrl>#style2</styleUrl>
+		<Point>
+			<coordinates>-122.3633325,50.58065209,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>UFO Pictograph, deer</name>
+		<styleUrl>#style2</styleUrl>
+		<Point>
+			<coordinates>-122.3294642,50.64988771000001,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Pictograph area</name>
+		<styleUrl>#style2</styleUrl>
+		<Point>
+			<coordinates>-122.4074324,50.62900489,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>N&apos;Quatqua</name>
+		<styleUrl>#style2</styleUrl>
+		<Point>
+			<coordinates>-122.4805979,50.54676149,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Connell Creek (wildlife)</name>
+		<styleUrl>#style2</styleUrl>
+		<Point>
+			<coordinates>-122.5252068,50.68921369,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Tsalalh</name>
+		<styleUrl>#style2</styleUrl>
+		<Point>
+			<coordinates>-122.2612942,50.7187869,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>McGillvrey Creek</name>
+		<styleUrl>#style2</styleUrl>
+		<Point>
+			<coordinates>-122.5523758,50.64680429,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Grizzlies</name>
+		<styleUrl>#style2</styleUrl>
+		<Point>
+			<coordinates>-122.4940901,50.78221089,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Goat Mountain</name>
+		<styleUrl>#style2</styleUrl>
+		<Point>
+			<coordinates>-122.2706551,50.63674353,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Warner Lake</name>
+		<styleUrl>#style2</styleUrl>
+		<Point>
+			<coordinates>-123.1601718,51.04684427,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Fish Kettle</name>
+		<styleUrl>#style2</styleUrl>
+		<Point>
+			<coordinates>-122.1707289,50.8621007,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>+300 deer</name>
+		<styleUrl>#style2</styleUrl>
+		<Point>
+			<coordinates>-122.1651227,50.86416083,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Hand pictograph</name>
+		<styleUrl>#style2</styleUrl>
+		<Point>
+			<coordinates>-123.1840115,51.11631975000001,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Jervis Inlet</name>
+		<styleUrl>#style2</styleUrl>
+		<Point>
+			<coordinates>-124.5027193,50.42076875,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Chilko Lake</name>
+		<styleUrl>#style2</styleUrl>
+		<Point>
+			<coordinates>-124.0628259,51.27440783000001,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Yalakom River</name>
+		<styleUrl>#style2</styleUrl>
+		<Point>
+			<coordinates>-122.1726714,50.86795029000001,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Fish Kettle</name>
+		<styleUrl>#style2</styleUrl>
+		<Point>
+			<coordinates>-122.1767233,50.86250174,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Seton Lake</name>
+		<styleUrl>#style2</styleUrl>
+		<Point>
+			<coordinates>-122.1605585,50.71101985,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>260 deer</name>
+		<styleUrl>#style2</styleUrl>
+		<Point>
+			<coordinates>-122.1641399,50.8653039,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Applespring</name>
+		<styleUrl>#style2</styleUrl>
+		<Point>
+			<coordinates>-122.0318863,50.82158794,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>First Camp</name>
+		<styleUrl>#style2</styleUrl>
+		<Point>
+			<coordinates>-122.0705992,50.84981620999999,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Many trails</name>
+		<styleUrl>#style2</styleUrl>
+		<Point>
+			<coordinates>-122.0720856,50.87966496,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Onion Mountain</name>
+		<styleUrl>#style2</styleUrl>
+		<Point>
+			<coordinates>-122.0796213,50.88297504,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Leons Creek</name>
+		<styleUrl>#style2</styleUrl>
+		<Point>
+			<coordinates>-122.1318339,50.96536773,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Klaw ntq ap</name>
+		<description>Beaver dam</description>
+		<styleUrl>#style2</styleUrl>
+		<Point>
+			<coordinates>-122.519273,51.08713638999999,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Caves</name>
+		<styleUrl>#style2</styleUrl>
+		<Point>
+			<coordinates>-122.1706646,50.8655339,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Yalakom</name>
+		<description>Place of Big horn sheep</description>
+		<styleUrl>#style2</styleUrl>
+		<Point>
+			<coordinates>-122.5348075,51.10946213,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Goat Camp</name>
+		<description>Albert Grandfather&apos;s fur trapping area</description>
+		<styleUrl>#style2</styleUrl>
+		<Point>
+			<coordinates>-122.0961133,50.95069642,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Davy Jones Creek/</name>
+		<styleUrl>#style2</styleUrl>
+		<Point>
+			<coordinates>-122.5627443,51.12849002000001,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<styleUrl>#style2</styleUrl>
+		<Point>
+			<coordinates>-122.4618223,51.13406386,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Tsqoqs7am</name>
+		<description>looking up into the sky ,goat hunting,goat camp. 3 trails join up here9 mile</description>
+		<styleUrl>#style2</styleUrl>
+		<Point>
+			<coordinates>-122.095147,51.00513052,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Pictographs</name>
+		<styleUrl>#style2</styleUrl>
+		<Point>
+			<coordinates>-122.2345267,50.79096689,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Goat Hunting</name>
+		<styleUrl>#style2</styleUrl>
+		<Point>
+			<coordinates>-122.2177349,50.78591851,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Goat, Deer, Moose Hunting</name>
+		<styleUrl>#style2</styleUrl>
+		<Point>
+			<coordinates>-122.2266419,50.76559802,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Stirrup Creek</name>
+		<styleUrl>#style2</styleUrl>
+		<Point>
+			<coordinates>-122.1160745,51.06996044,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Gunn Creek</name>
+		<styleUrl>#style2</styleUrl>
+		<Point>
+			<coordinates>-122.7941943,50.90500712000001,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Mine</name>
+		<styleUrl>#style2</styleUrl>
+		<Point>
+			<coordinates>-122.2301298,50.76426361,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Cougar Creek</name>
+		<styleUrl>#style2</styleUrl>
+		<Point>
+			<coordinates>-122.2768201,50.77433759,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Second Camp</name>
+		<styleUrl>#style2</styleUrl>
+		<Point>
+			<coordinates>-122.0652894,50.85796694,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Trail</name>
+		<styleUrl>#style2</styleUrl>
+		<Point>
+			<coordinates>-122.27179,50.79228835,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Hunter&apos;s Cabin</name>
+		<styleUrl>#style2</styleUrl>
+		<Point>
+			<coordinates>-122.2786917,50.78627809,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Second Creek</name>
+		<styleUrl>#style2</styleUrl>
+		<Point>
+			<coordinates>-122.2445627,51.06798255,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Raising Rocks</name>
+		<styleUrl>#style2</styleUrl>
+		<Point>
+			<coordinates>-122.1431223,50.65659202,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Tseqw ts eqw sqwem</name>
+		<description>End of territory,Red Mountian.</description>
+		<styleUrl>#style2</styleUrl>
+		<Point>
+			<coordinates>-122.5485378,51.20626932,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Lost Man Camp [Apa7]</name>
+		<styleUrl>#style2</styleUrl>
+		<Point>
+			<coordinates>-122.9235411,51.12147161000001,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>S7istken</name>
+		<styleUrl>#style2</styleUrl>
+		<Point>
+			<coordinates>-122.7909401,51.10313549000001,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Tsilhqot&apos;in Lookout</name>
+		<styleUrl>#style2</styleUrl>
+		<Point>
+			<coordinates>-122.198909,50.71445417,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Hand Print</name>
+		<description>territory boundary</description>
+		<styleUrl>#style2</styleUrl>
+		<Point>
+			<coordinates>-121.6109853,50.79929375,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Connel Pass</name>
+		<styleUrl>#style2</styleUrl>
+		<Point>
+			<coordinates>-122.5775329,50.68849292,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Graveyard Valley</name>
+		<styleUrl>#style2</styleUrl>
+		<Point>
+			<coordinates>-123.1011109,51.16912118000001,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Petrographs</name>
+		<description>Possible map</description>
+		<styleUrl>#style2</styleUrl>
+		<Point>
+			<coordinates>-121.658274,50.82371971999999,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Antoine Creek</name>
+		<styleUrl>#style2</styleUrl>
+		<Point>
+			<coordinates>-122.1373332,50.85916651,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>village site</name>
+		<description>antoine creek ranchthree creeks going ito ranch , pit houses around here  spotted owls seen  around here</description>
+		<styleUrl>#style2</styleUrl>
+		<Point>
+			<coordinates>-122.1202096,50.87918481,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>xwey&apos;xwey&apos;n&apos;is</name>
+		<description>broken tooth . rock above white slide. Mission owned this.</description>
+		<styleUrl>#style2</styleUrl>
+		<Point>
+			<coordinates>-122.1678826,50.76227401,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>harvesting area/whitebark pine</name>
+		<description>medicine wheel on trail along ridge  allot of white bark pine grizzly country.</description>
+		<styleUrl>#style2</styleUrl>
+		<Point>
+			<coordinates>-122.127489,50.75990904,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>sq7am mountian</name>
+		<description>mining area for ufosin the times of the war lots of lights where there(albert joseph)</description>
+		<styleUrl>#style2</styleUrl>
+		<Point>
+			<coordinates>-122.125305,50.745538,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>lake w/ no name</name>
+		<description>no bottom. aliens use to mine.</description>
+		<styleUrl>#style2</styleUrl>
+		<Point>
+			<coordinates>-122.1315217,50.74689862,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>town creek trail</name>
+		<styleUrl>#style2</styleUrl>
+		<Point>
+			<coordinates>-122.062796,50.74370882,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>3 spaniard trail</name>
+		<description>they went up and never came down armor should be still there</description>
+		<styleUrl>#style2</styleUrl>
+		<Point>
+			<coordinates>-121.9923458,50.6728948,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>lady rock</name>
+		<description>first wife of seton came  defied religion and was struck by lightening and turned to stone above some cliff above / near Sk&apos;emqin.</description>
+		<styleUrl>#style2</styleUrl>
+		<Point>
+			<coordinates>-121.983987,50.67239132,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>u/k cave</name>
+		<description>buried ice cave. still see some bored/logs today when summer comesthe ice melts inside. u will see in the summer.</description>
+		<styleUrl>#style2</styleUrl>
+		<Point>
+			<coordinates>-121.986006,50.66992337,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>fish weir</name>
+		<description>tsalalh fishing</description>
+		<styleUrl>#style2</styleUrl>
+		<Point>
+			<coordinates>-121.9884366,50.66904518,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>camping place</name>
+		<description>camp here for hunting and fishing. boy use to go around steeling,grandmother left the boy behind. kicking crying making holes in the ground</description>
+		<styleUrl>#style2</styleUrl>
+		<Point>
+			<coordinates>-122.0995328,50.66986301,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>q&apos;welaw&apos;a7 Sqwem-(nyas?)</name>
+		<description>whiteslide</description>
+		<styleUrl>#style2</styleUrl>
+		<Point>
+			<coordinates>-122.1740149,50.72519809,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Lone Valley / 2800 rd.FSR</name>
+		<description>there to the fraser river</description>
+		<styleUrl>#style2</styleUrl>
+		<Point>
+			<coordinates>-122.7806581,51.17763468,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Fraser River</name>
+		<styleUrl>#style2</styleUrl>
+		<Point>
+			<coordinates>-122.2466272,51.3462834,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Vision Rock</name>
+		<description>flat rock on top its wier&apos;d,info from van libruary</description>
+		<styleUrl>#style2</styleUrl>
+		<Point>
+			<coordinates>-121.9927804,50.67098723,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>graveyard #12</name>
+		<description>language in chinook,tombstones</description>
+		<styleUrl>#style2</styleUrl>
+		<Point>
+			<coordinates>-122.0986904,50.69389732,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>watermill</name>
+		<description>where they use to get water for the mills servive the steam engines.</description>
+		<styleUrl>#style2</styleUrl>
+		<Point>
+			<coordinates>-122.0980499,50.69320325,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>camp,</name>
+		<description>try to log there</description>
+		<styleUrl>#style2</styleUrl>
+		<Point>
+			<coordinates>-122.1356242,50.68037045,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Tseptsipun</name>
+		<description>area is all burnt . area has allot of si7skins</description>
+		<styleUrl>#style2</styleUrl>
+		<Point>
+			<coordinates>-122.1503695,50.69317688,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>1st tunnel</name>
+		<description>water creature monster,see Tom Bull,Heesh</description>
+		<styleUrl>#style2</styleUrl>
+		<Point>
+			<coordinates>-122.2437128,50.7211446,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>rock island</name>
+		<description>someone hunting across the lake . transformer turned him into a rock</description>
+		<styleUrl>#style2</styleUrl>
+		<Point>
+			<coordinates>-122.1828645,50.71475262,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Hi7  area</name>
+		<description>water</description>
+		<styleUrl>#style2</styleUrl>
+		<Point>
+			<coordinates>-122.2892241,50.70913138,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Hi7 area</name>
+		<description>lost lives on this rock. hi7 area</description>
+		<styleUrl>#style2</styleUrl>
+		<Point>
+			<coordinates>-121.9951426,50.66487496,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Sk&apos;imaltse</name>
+		<description>after mother glacier dissappeared left a baby there</description>
+		<styleUrl>#style2</styleUrl>
+		<Point>
+			<coordinates>-121.9849928,50.67001332,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>spesq</name>
+		<description>white rocks that go up the mnt.</description>
+		<styleUrl>#style2</styleUrl>
+		<Point>
+			<coordinates>-122.0100589,50.68389845,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>UFO Lake</name>
+		<description>Up spyder creek. Also a camp where horses were lost. They only found a bell. Carl Alexander</description>
+		<styleUrl>#style2</styleUrl>
+		<Point>
+			<coordinates>-122.2599947,50.64662035,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Uranium Deposits</name>
+		<description>Deer have darker flesh than normal</description>
+		<styleUrl>#style2</styleUrl>
+		<Point>
+			<coordinates>-122.2052264,50.67955365,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Rocky Trail Camp</name>
+		<description>Goat Hunting, also used for Blueberyy and Huckleberry</description>
+		<styleUrl>#style2</styleUrl>
+		<Point>
+			<coordinates>-122.0749548,50.86494162,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Applesping spring #1</name>
+		<description>look on name sheet</description>
+		<styleUrl>#style2</styleUrl>
+		<Point>
+			<coordinates>-122.0941612,50.86075961,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Burnt Ass camp</name>
+		<description>Wet campers but bum over fire and got burnt</description>
+		<styleUrl>#style2</styleUrl>
+		<Point>
+			<coordinates>-122.0525724,50.85702148,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Fish Carry</name>
+		<description>Traditional Fish carry</description>
+		<styleUrl>#style2</styleUrl>
+		<Point>
+			<coordinates>-122.2226221,50.78878548,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Village site</name>
+		<description>Randy found artifacts here</description>
+		<styleUrl>#style2</styleUrl>
+		<Point>
+			<coordinates>-122.2466469,50.769733,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Former porcupine trail</name>
+		<description>Story from Ida</description>
+		<styleUrl>#style2</styleUrl>
+		<Point>
+			<coordinates>-122.2548535,50.76723042,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Cabin</name>
+		<description>Annie lived here</description>
+		<styleUrl>#style2</styleUrl>
+		<Point>
+			<coordinates>-122.2462498,50.76898613000001,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Mule Deer Wintering Habitat</name>
+		<styleUrl>#style2</styleUrl>
+		<Point>
+			<coordinates>-122.3635155,50.78958212,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>qwam qwam inwas</name>
+		<description>three rocks going to one place.</description>
+		<styleUrl>#style2</styleUrl>
+		<Point>
+			<coordinates>-122.392242,50.82581521000001,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>3 cabins</name>
+		<description>never been used</description>
+		<styleUrl>#style2</styleUrl>
+		<Point>
+			<coordinates>-122.1204236,50.87787616000001,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>tradering place</name>
+		<description>place where all three use to trade here use to camp here also during trading (carl)</description>
+		<styleUrl>#style2</styleUrl>
+		<Point>
+			<coordinates>-122.3136199,51.22462278,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Swan lake</name>
+		<description>where we use to make hey 2 cabins,lots of beaver,moose. swamp area.</description>
+		<styleUrl>#style2</styleUrl>
+		<Point>
+			<coordinates>-122.3256832,51.21413727,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>old corral</name>
+		<description>old village site,hunting spot,  corral ,shapped like a funnel</description>
+		<styleUrl>#style2</styleUrl>
+		<Point>
+			<coordinates>-122.3048064,51.21358179,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>old village</name>
+		<styleUrl>#style2</styleUrl>
+		<Point>
+			<coordinates>-122.3106139,51.21594126,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>beaver meadow</name>
+		<styleUrl>#style2</styleUrl>
+		<Point>
+			<coordinates>-122.7937616,51.17881958,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Shwartz Lake</name>
+		<styleUrl>#style2</styleUrl>
+		<Point>
+			<coordinates>-122.7198054,51.1604709,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Mud Lake</name>
+		<styleUrl>#style2</styleUrl>
+		<Point>
+			<coordinates>-122.7307634,51.15207166,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Village Site</name>
+		<styleUrl>#style2</styleUrl>
+		<Point>
+			<coordinates>-122.7103896,51.16248868000001,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Swartz lake Village</name>
+		<styleUrl>#style2</styleUrl>
+		<Point>
+			<coordinates>-122.7203455,51.15404863,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>S7istkens</name>
+		<styleUrl>#style2</styleUrl>
+		<Point>
+			<coordinates>-122.724594,51.15275797,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>suicide goat place</name>
+		<description>place where goats go over and kill them selves.</description>
+		<styleUrl>#style2</styleUrl>
+		<Point>
+			<coordinates>-122.2720913,50.67291408,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>rock Cairn</name>
+		<description>jar, has names ,old names</description>
+		<styleUrl>#style2</styleUrl>
+		<Point>
+			<coordinates>-122.254643,50.67350209,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>torture rock</name>
+		<styleUrl>#style2</styleUrl>
+		<Point>
+			<coordinates>-121.8591633,50.82290424,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>sawtooth</name>
+		<styleUrl>#style2</styleUrl>
+		<Point>
+			<coordinates>-122.2370887,50.59371518999999,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>S7istkens</name>
+		<description>buried under branches under a clearing a days walk</description>
+		<styleUrl>#style2</styleUrl>
+		<Point>
+			<coordinates>-122.2349566,50.58241125,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>moon lake  ?</name>
+		<styleUrl>#style2</styleUrl>
+		<Point>
+			<coordinates>-122.0782242,50.75533383,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Yegalcken</name>
+		<styleUrl>#style2</styleUrl>
+		<Point>
+			<coordinates>-122.1678601,50.86261908,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>S&apos;wela ops</name>
+		<description>actual name in Statimc</description>
+		<styleUrl>#style2</styleUrl>
+		<Point>
+			<coordinates>-122.4937008,50.94044518,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>2800FSR(BRIDGE)</name>
+		<styleUrl>#style2</styleUrl>
+		<Point>
+			<coordinates>-122.7788182,51.17794742,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Nosebag</name>
+		<styleUrl>#style2</styleUrl>
+		<Point>
+			<coordinates>-122.3853181,50.75097173,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Lost Valley Creek</name>
+		<styleUrl>#style2</styleUrl>
+		<Point>
+			<coordinates>-122.3633325,50.58065209,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Warner Lake</name>
+		<styleUrl>#style2</styleUrl>
+		<Point>
+			<coordinates>-123.1714604,51.12571129,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Graves</name>
+		<styleUrl>#style2</styleUrl>
+		<Point>
+			<coordinates>-123.0961974,51.17256802,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Village site</name>
+		<styleUrl>#style2</styleUrl>
+		<Point>
+			<coordinates>-123.0982447,51.17171666,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Cowboy Cabin</name>
+		<styleUrl>#style2</styleUrl>
+		<Point>
+			<coordinates>-122.9716343,51.1774744,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Cabin</name>
+		<styleUrl>#style2</styleUrl>
+		<Point>
+			<coordinates>-123.1106753,51.21189603,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>rock paintings</name>
+		<description>narrow part of the creek, trail goes right by it</description>
+		<styleUrl>#style2</styleUrl>
+		<Point>
+			<coordinates>-122.1265859,50.86773438,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Xwalxs,stein</name>
+		<description>area identified as a place of many roots. an area where chilcotins,shoswamp,statimcs picked roots</description>
+		<styleUrl>#style2</styleUrl>
+		<Point>
+			<coordinates>-123.1013086,51.16833153,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>nmuts&apos;umten</name>
+		<description>above mcneils,some caves where chinese use to hide</description>
+		<styleUrl>#style2</styleUrl>
+		<Point>
+			<coordinates>-122.0003885,50.67917907,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Basalt and Chert Quarry</name>
+		<styleUrl>#style2</styleUrl>
+		<Point>
+			<coordinates>-123.0062602,50.72065118,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>s7istkens</name>
+		<styleUrl>#style2</styleUrl>
+		<Point>
+			<coordinates>-123.0945437,51.1727328,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>harvesting  area</name>
+		<description>all the way to Joffry haq7a blue berry</description>
+		<styleUrl>#style2</styleUrl>
+		<Point>
+			<coordinates>-122.3562719,50.38755834999999,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>charlie macks cabin</name>
+		<styleUrl>#style2</styleUrl>
+		<Point>
+			<coordinates>-122.3515566,50.39722332,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Sam Jim cabin</name>
+		<styleUrl>#style2</styleUrl>
+		<Point>
+			<coordinates>-122.2834922,50.41895215000001,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>little people live</name>
+		<description>where you go  and your stuff will go missing place to pick hoshum left branch that goes to the  steep slope</description>
+		<styleUrl>#style2</styleUrl>
+		<Point>
+			<coordinates>-121.9657075,50.63645661999999,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Torture Rock</name>
+		<styleUrl>#style2</styleUrl>
+		<Point>
+			<coordinates>-122.4590058,51.15053318,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Torture Rock Area</name>
+		<styleUrl>#style2</styleUrl>
+		<Point>
+			<coordinates>-121.8623319,50.84003937,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>B1</name>
+		<styleUrl>#style2</styleUrl>
+		<Point>
+			<coordinates>-122.2191921,50.78793143,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>B2</name>
+		<styleUrl>#style2</styleUrl>
+		<Point>
+			<coordinates>-122.2161442,50.78705951,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>B4</name>
+		<styleUrl>#style2</styleUrl>
+		<Point>
+			<coordinates>-122.2045751,50.84734972,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>B5</name>
+		<styleUrl>#style2</styleUrl>
+		<Point>
+			<coordinates>-122.1713837,50.86280898999999,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>B6</name>
+		<styleUrl>#style2</styleUrl>
+		<Point>
+			<coordinates>-122.1108585,50.82676437,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Y4</name>
+		<styleUrl>#style2</styleUrl>
+		<Point>
+			<coordinates>-122.1717056,50.86439128,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Y3</name>
+		<styleUrl>#style2</styleUrl>
+		<Point>
+			<coordinates>-122.204951,50.88309567,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Y2</name>
+		<styleUrl>#style2</styleUrl>
+		<Point>
+			<coordinates>-122.2393714,50.91244886,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Y1</name>
+		<styleUrl>#style2</styleUrl>
+		<Point>
+			<coordinates>-122.2602034,50.93232034,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>B3</name>
+		<styleUrl>#style2</styleUrl>
+		<Point>
+			<coordinates>-122.1971245,50.82893068,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Rockytrail</name>
+		<styleUrl>#style2</styleUrl>
+		<Point>
+			<coordinates>-122.0893933,50.86179545,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Leon&apos;s Creek</name>
+		<styleUrl>#style2</styleUrl>
+		<Point>
+			<coordinates>-122.1318339,50.96536773,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Bever Dam</name>
+		<styleUrl>#style2</styleUrl>
+		<Point>
+			<coordinates>-122.519273,51.08713638999999,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Yalakom</name>
+		<styleUrl>#style2</styleUrl>
+		<Point>
+			<coordinates>-122.5348075,51.10946213,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Goat Camp</name>
+		<styleUrl>#style2</styleUrl>
+		<Point>
+			<coordinates>-122.0961133,50.95069642,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Davy Jones Creek</name>
+		<styleUrl>#style2</styleUrl>
+		<Point>
+			<coordinates>-122.5627443,51.12849002000001,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Tsqoqs7am</name>
+		<styleUrl>#style2</styleUrl>
+		<Point>
+			<coordinates>-122.095147,51.00513052,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Second Camp</name>
+		<styleUrl>#style2</styleUrl>
+		<Point>
+			<coordinates>-122.0473581,50.86215682,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Red Mountain</name>
+		<styleUrl>#style2</styleUrl>
+		<Point>
+			<coordinates>-122.5485378,51.20626932,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Lost Man Camp</name>
+		<styleUrl>#style2</styleUrl>
+		<Point>
+			<coordinates>-122.9235411,51.12147161000001,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>S7istkens</name>
+		<styleUrl>#style2</styleUrl>
+		<Point>
+			<coordinates>-122.7909401,51.10313549000001,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>#1 lone cabin page</name>
+		<styleUrl>#style2</styleUrl>
+		<Point>
+			<coordinates>-122.8766873,51.16112172,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>deer Pass</name>
+		<description>october 1st many deer, (albert)</description>
+		<styleUrl>#style2</styleUrl>
+		<Point>
+			<coordinates>-123.1144547,51.0631575,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Relay Creek</name>
+		<styleUrl>#style2</styleUrl>
+		<Point>
+			<coordinates>-122.8674551,51.13846593,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Mineral Licks</name>
+		<description>all over</description>
+		<styleUrl>#style2</styleUrl>
+		<Point>
+			<coordinates>-123.1124744,51.09591515,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Lizard lake</name>
+		<styleUrl>#style2</styleUrl>
+		<Point>
+			<coordinates>-123.1137697,51.09802629,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Relay Camp</name>
+		<description>Randy&apos;s camp. Beginning of Relay trailhead</description>
+		<styleUrl>#style2</styleUrl>
+		<Point>
+			<coordinates>-122.9323687,51.1793875,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Grave</name>
+		<description>single</description>
+		<styleUrl>#style2</styleUrl>
+		<Point>
+			<coordinates>-123.0946339,51.1752972,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Untitled Placemark</name>
+		<styleUrl>#style2</styleUrl>
+		<Point>
+			<coordinates>-123.1042891,51.05440371,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>poison MTN.</name>
+		<styleUrl>#style2</styleUrl>
+		<Point>
+			<coordinates>-122.6014689,51.14681817,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Marshall Lake</name>
+		<styleUrl>#style2</styleUrl>
+		<Point>
+			<coordinates>-122.5894093,50.92188257,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Traveling Camp sites</name>
+		<styleUrl>#style2</styleUrl>
+		<Point>
+			<coordinates>-122.5872202,50.92359647999999,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Dutch Oven</name>
+		<styleUrl>#style2</styleUrl>
+		<Point>
+			<coordinates>-122.5525546,50.9453992,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Grizzly Lake</name>
+		<styleUrl>#style2</styleUrl>
+		<Point>
+			<coordinates>-122.6358118,51.0599489,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Big Dog Mtn.</name>
+		<styleUrl>#style2</styleUrl>
+		<Point>
+			<coordinates>-122.5843052,51.05385371,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Sundial</name>
+		<description>Center white quartz on nine mile ridge</description>
+		<styleUrl>#style2</styleUrl>
+		<Point>
+			<coordinates>-122.4740022,51.1376535,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Lizard Lake</name>
+		<description>Human eatng lizard</description>
+		<styleUrl>#style2</styleUrl>
+		<Point>
+			<coordinates>-122.3379867,50.57912608,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Table Rock</name>
+		<description>Council Rock used in times of war. Two benches</description>
+		<styleUrl>#style2</styleUrl>
+		<Point>
+			<coordinates>-122.3860541,50.55156297,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>gate</name>
+		<description>access to the NE side and upper hyro right of way.</description>
+		<styleUrl>#style2</styleUrl>
+		<Point>
+			<coordinates>-122.2246117,50.73140171,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>old truck/cabins</name>
+		<description>trail access lower part of burn leads to old truck and cabins.</description>
+		<styleUrl>#style2</styleUrl>
+		<Point>
+			<coordinates>-122.2239302,50.7310469,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>log house</name>
+		<description>on roadtot this loghouse : debri piles,machinery,equipment.</description>
+		<styleUrl>#style2</styleUrl>
+		<Point>
+			<coordinates>-122.2191337,50.73015745999999,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>old shipping truck</name>
+		<description>3 meter bufferin gulch.  bears use it as a den.</description>
+		<styleUrl>#style2</styleUrl>
+		<Point>
+			<coordinates>-122.2255109,50.73145131,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>old log cabin</name>
+		<description>3 meter buffer  several burn piles along both sides of the road.</description>
+		<styleUrl>#style2</styleUrl>
+		<Point>
+			<coordinates>-122.2281988,50.73180668999999,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>old school</name>
+		<styleUrl>#style2</styleUrl>
+		<Point>
+			<coordinates>-122.2367769,50.73154378,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>shed</name>
+		<description>fuel free/handguard.</description>
+		<styleUrl>#style2</styleUrl>
+		<Point>
+			<coordinates>-122.2353293,50.73233782,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>old fuel shed</name>
+		<styleUrl>#style2</styleUrl>
+		<Point>
+			<coordinates>-122.2242059,50.7313812,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>harvesting area/whitebark pine</name>
+		<description>medicine wheel on trail along ridge  allot of white bark pine</description>
+		<styleUrl>#style2</styleUrl>
+		<Point>
+			<coordinates>-122.127489,50.75990904,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>sq7am mountian</name>
+		<description>mining area for ufos</description>
+		<styleUrl>#style2</styleUrl>
+		<Point>
+			<coordinates>-122.125305,50.745538,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>lake w/ no name</name>
+		<description>no bottom</description>
+		<styleUrl>#style2</styleUrl>
+		<Point>
+			<coordinates>-122.1315217,50.74689862,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>lady rock</name>
+		<description>woman defied religion and was struck by lightening and turned to stone</description>
+		<styleUrl>#style2</styleUrl>
+		<Point>
+			<coordinates>-121.983987,50.67239132,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>u/k cave</name>
+		<description>buried ice cave. still see some bored/logs today</description>
+		<styleUrl>#style2</styleUrl>
+		<Point>
+			<coordinates>-121.986006,50.66992337,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>si7skin</name>
+		<description>buried under branches under a clearing a days walk</description>
+		<styleUrl>#style2</styleUrl>
+		<Point>
+			<coordinates>-122.2349566,50.58241125,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Wall of pictographs</name>
+		<description>Ida knows</description>
+		<styleUrl>#style2</styleUrl>
+		<Point>
+			<coordinates>-122.0060214,50.68198304,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Village site</name>
+		<styleUrl>#style2</styleUrl>
+		<Point>
+			<coordinates>-122.0091804,50.67848222,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Beaver Mountain</name>
+		<description>Shadow on lake looks like a beaver</description>
+		<styleUrl>#style2</styleUrl>
+		<Point>
+			<coordinates>-122.2152115,50.68945629,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Dutch oven</name>
+		<styleUrl>#style2</styleUrl>
+		<Point>
+			<coordinates>-122.5201976,50.91410461000001,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Serpantine quarry</name>
+		<styleUrl>#style2</styleUrl>
+		<Point>
+			<coordinates>-122.5318097,50.92873606,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Frogs</name>
+		<styleUrl>#style2</styleUrl>
+		<Point>
+			<coordinates>-122.3137379,50.94028589,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Lac Lemare</name>
+		<styleUrl>#style2</styleUrl>
+		<Point>
+			<coordinates>-122.3144606,50.94056908,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Pictographs</name>
+		<description>Well preserved</description>
+		<styleUrl>#style2</styleUrl>
+		<Point>
+			<coordinates>-121.9811483,50.65789508,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Boundary marker Notch</name>
+		<styleUrl>#style2</styleUrl>
+		<Point>
+			<coordinates>-122.3618756,50.62059104,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Boundary Marker notch</name>
+		<styleUrl>#style2</styleUrl>
+		<Point>
+			<coordinates>-122.4711939,50.69054463,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Camp Area</name>
+		<styleUrl>#style2</styleUrl>
+		<Point>
+			<coordinates>-122.4931141,50.66923757,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Glacier</name>
+		<description>Albert remembers glacier</description>
+		<styleUrl>#style2</styleUrl>
+		<Point>
+			<coordinates>-122.5284676,50.72564759,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>deer</name>
+		<description>traiil</description>
+		<styleUrl>#style2</styleUrl>
+		<Point>
+			<coordinates>-123.1791488,51.15040098999999,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Mat Lodge</name>
+		<styleUrl>#style2</styleUrl>
+		<Point>
+			<coordinates>-122.8540232,51.03370157,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Whitecap Creek</name>
+		<description>Randy&apos;s father recounts sasquatch story about miners in the valley</description>
+		<styleUrl>#style2</styleUrl>
+		<Point>
+			<coordinates>-122.3560995,50.72847762999999,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Apa7 camp</name>
+		<description>Richard Alexander and father guided here</description>
+		<styleUrl>#style2</styleUrl>
+		<Point>
+			<coordinates>-122.9235411,51.12147161000001,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Cabin</name>
+		<styleUrl>#style2</styleUrl>
+		<Point>
+			<coordinates>-122.4101384,50.72501086,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Big Cabin</name>
+		<styleUrl>#style2</styleUrl>
+		<Point>
+			<coordinates>-122.3998979,50.74140405,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Hotl7as cabin</name>
+		<styleUrl>#style2</styleUrl>
+		<Point>
+			<coordinates>-122.3204437,50.81269514,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>late John Michell/Rita Holland</name>
+		<styleUrl>#style2</styleUrl>
+		<Point>
+			<coordinates>-127.3357711,55.03286691,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Rene/ aunt Jeannie</name>
+		<styleUrl>#style2</styleUrl>
+		<Point>
+			<coordinates>-127.3355652,55.03355237,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Bazil Michell(John Michells Father)</name>
+		<styleUrl>#style2</styleUrl>
+		<Point>
+			<coordinates>-127.3356821,55.03399532,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Albert Michell(/jigs)</name>
+		<styleUrl>#style2</styleUrl>
+		<Point>
+			<coordinates>-127.3356189,55.03376516,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Hoshum creek crossing</name>
+		<description>braided bridge with rope and rope sidings</description>
+		<styleUrl>#style2</styleUrl>
+		<Point>
+			<coordinates>-122.3103689,50.68052541,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>creek #2</name>
+		<description>possible camp location.</description>
+		<styleUrl>#style2</styleUrl>
+		<Point>
+			<coordinates>-122.3248847,50.65887614,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Dutch Oven</name>
+		<description>Randy James, Hoggie</description>
+		<styleUrl>#style2</styleUrl>
+		<Point>
+			<coordinates>-122.0964509,50.69284146,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>lower Tommy Creek Cabin</name>
+		<description>Carl Alexander, A cat sunk in earth there</description>
+		<styleUrl>#style2</styleUrl>
+		<Point>
+			<coordinates>-122.5260581,50.84263169,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Sunken Cat</name>
+		<description>Carl Alexander</description>
+		<styleUrl>#style2</styleUrl>
+		<Point>
+			<coordinates>-122.5228475,50.8396986,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>The Big Dip</name>
+		<description>Gasper</description>
+		<styleUrl>#style2</styleUrl>
+		<Point>
+			<coordinates>-121.9793676,50.78477982,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Hi7t Water</name>
+		<description>Gerald</description>
+		<styleUrl>#style2</styleUrl>
+		<Point>
+			<coordinates>-122.1007971,50.83988279,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>POC.</name>
+		<description>starting point. traverse/hike walk Identify possible trail going to Mission Ridge Trail.</description>
+		<styleUrl>#style2</styleUrl>
+		<Point>
+			<coordinates>-122.308052,50.75857403,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>U/K LAKE</name>
+		<description>Destination from POC. trail identity.</description>
+		<styleUrl>#style2</styleUrl>
+		<Point>
+			<coordinates>-122.3194504,50.74749804,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>mysterious lake</name>
+		<styleUrl>#style2</styleUrl>
+		<Point>
+			<coordinates>-122.3195274,50.74734986,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>carpenter south FSR</name>
+		<styleUrl>#style2</styleUrl>
+		<Point>
+			<coordinates>-122.3045315,50.75863601,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>bench start/finish</name>
+		<styleUrl>#style2</styleUrl>
+		<Point>
+			<coordinates>-122.3748583,50.79296430000001,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>parking</name>
+		<styleUrl>#style2</styleUrl>
+		<Point>
+			<coordinates>-122.3760461,50.79326995,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>parking</name>
+		<styleUrl>#style2</styleUrl>
+		<Point>
+			<coordinates>-122.3552054,50.78994405,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>bear creek</name>
+		<styleUrl>#style2</styleUrl>
+		<Point>
+			<coordinates>-122.2871173,50.6944651,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>hand print</name>
+		<description>area Identified By Ida Mary Peter (Oct 30th 2015).</description>
+		<styleUrl>#style2</styleUrl>
+		<Point>
+			<coordinates>-123.2043456,51.06951249,0</coordinates>
+		</Point>
+	</Placemark>
+</Document>
+</kml>

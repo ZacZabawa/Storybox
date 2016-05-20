@@ -17,7 +17,11 @@ class User extends Model implements AuthenticatableContract,
      *
      * @var string
      */
-    
+    protected $guarded = array('id');
+     public static $rules = array(
+    'name' => 'required|min:5',
+    'email' => 'required|email'
+  );
     protected $table = 'users';
     /**
      * The attributes that are mass assignable.
