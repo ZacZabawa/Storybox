@@ -9,6 +9,7 @@ use View;
 use Input;
 use Validator;
 use Redirect;
+use Datatables;
 class UsersController extends Controller
 {
    
@@ -32,11 +33,14 @@ class UsersController extends Controller
 
        $users = User::all();
        $communities = community::lists('name');
-       
+  
        return View::make('users')->with(compact('users','communities'));
        
     } //
-
+ public function anyData()
+    {
+        return Datatables::of(User::query())->make(true);
+    }
      public function create()
   {
     return View::make('users.create');
