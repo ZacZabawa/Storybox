@@ -11,11 +11,13 @@
         "yajra/laravel-datatables-oracle": "^6.10",
         "livecontrol/eloquent-datatable": "^0.1.5",
         "laravelcollective/html": "5.2.*",
-        "phaza/laravel-postgis": "^3.0",
         "orchestra/parser": "~3.2",
         "spinen/laravel-geometry": "^0.2.0",
          "intervention/image": "dev-master",
-        "adamwathan/bootforms": "^0.8.0"
+        "adamwathan/bootforms": "^0.8.0",
+        "spatie/laravel-medialibrary": "^3.18",
+        "ramsey/uuid": "^3.4",
+        "bosnadev/database": "^0.16.0"
     },
     "require-dev": {
         "fzaninotto/faker": "~1.4",

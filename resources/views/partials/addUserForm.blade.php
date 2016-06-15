@@ -15,6 +15,8 @@
                             </div>
                         </div>
 
+                       
+
                         <div class="form-group{{ $errors->has('email') ? ' has-error' : '' }}">
                             <label class="col-md-4 control-label">E-Mail Address</label>
 
@@ -61,11 +63,19 @@
                         <div class="form-group">
                            <label class="col-md-4 control-label">Community</label>
                               <div class="col-md-6"> 
-                              {!! Form::select('community_id', $communities,'required', ['class' => 'select2 form-group'])!!}
+                              {!! Form::select('community_id', $communities,'required', ['id' => 'select2 ','class' => 'form-group'])!!}
                             
                              </div>
                          </div>
-  
+                         <div class="form-group">
+                           <label class="col-md-4 control-label">role</label>
+                           <div class="col-md-6"> 
+                           {!! Form::select('role_id', $roles,
+                             array('required',
+                                    'class'=>'form-control', 
+                                    ))!!}
+                            </div>
+                        </div>
 
                         <div class="form-group">
                             <div class="col-md-6 col-md-offset-4">

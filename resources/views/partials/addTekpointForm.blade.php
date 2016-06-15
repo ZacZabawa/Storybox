@@ -1,6 +1,6 @@
 
 
-{!! Form::open(array('url' => '/register')) !!}
+{!! Form::open(array('url' => 'tekpoints')) !!}
 
 <div class="form-group" margin-right=10px>
     {!! Form::label('Traditional Place Name') !!}
@@ -20,19 +20,14 @@
 
    <div class="form-group">
        <label >Contributor</label>
-       {!! Form::select('contributor_id', $contributors,
-         array('required',
-                'class'=>'form-control', 
-                ))!!}
+       {!! Form::select('contributor_id[]', $contributors, 'required',['id' => 'tag_list', 'class'=>'form-control', 'multiple'])!!}
         
         </div>
 
-               <div class="form-group">
+    <div class="form-group">
        <label >Community</label>
        {!! Form::select('community_id', $communities,
-         array('required',
-                'class'=>'form-control', 
-                ))!!}
+        'required',['id' => 'tag_list', 'class'=>'form-control'])!!}
         
         </div>
 
@@ -49,13 +44,13 @@
 
                 </div>
 
-                <div class="fallback">
-                    <input name="file" type="file" multiple />
-                </div>
+              
 
                 <div class="dropzone-previews" id="dropzonePreview"></div>
 
                 <h4 style="text-align: center;color:#428bca;">Drop or click to add media files <span class="glyphicon glyphicon-hand-down"></span></h4>
+
+<br>
   
 <div class="form-group">
     {!! Form::submit('submit', 

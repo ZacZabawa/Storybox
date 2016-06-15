@@ -23,7 +23,7 @@ class MediaController extends Controller
 	{
 		$entries = media::all();
 		$contributors = contributor::lists('firstName');
-		$tekpoints = tekpoint::lists('ident');
+		$tekpoints = tekpoint::lists('name');
 		$communities = community::lists('name');
  				return view('media', compact('communities','contributors', 'tekpoints', 'entries','HTML'));
 	}
@@ -54,4 +54,31 @@ class MediaController extends Controller
 		return (new Response($file, 200))
               ->header('Content-Type', $entry->mime);
 	}
+	 public function uploadFiles() {
+ 
+        $input = Input::all();
+ 
+        $rules = array(
+            'file' => 'image|max:3000',
+        );
+ 
+        $validation = Validator::make($input, $rules);
+ 
+        if ($validation->fails()) {
+            return Response::make($validation->errors->first(), 400);
+        }
+ 
+        $destinationPath = 'uploads'; // upload path
+        $extension = Input::file('file')->getClientOriginalExtension(); // getting file extension
+        $fileName = rand(11111, 99999) . '.' . $extension; // renameing image
+        $upload_success = Input::file('file')->move($destinationPath, $fileName); // uploading file to given path
+ 
+        if ($upload_success) {
+            return Response::json('success', 200);
+        } else {
+            return Response::json('error', 400);
+        }
+    }
+
 }
+

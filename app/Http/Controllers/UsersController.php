@@ -3,13 +3,16 @@
 namespace App\Http\Controllers;
 use App\User;
 use App\DataTables\UsersDataTable;
-use App\Http\Requests;
+
 use App\community;
+use App\Role;
 use View;
 use Input;
 use Validator;
 use Redirect;
 use Datatables;
+use App\http\Requests;
+use Illuminate\Http\Request;
 class UsersController extends Controller
 {
    
@@ -33,13 +36,20 @@ class UsersController extends Controller
 
        $users = User::all();
        $communities = community::lists('name');
-  
-       return View::make('users')->with(compact('users','communities'));
+       $roles = role::lists('label');
+       return View::make('users')->with(compact('users','communities', 'roles'));
        
     } //
  public function anyData()
     {
         return Datatables::of(User::query())->make(true);
+        addColumn('action', function ($user) {
+                return '<a href="#edit-'.$user->id.'" class="btn btn-xs btn-primary"><i class="glyphicon glyphicon-edit"></i> Edit</a>';
+            })
+            ->editColumn('id', 'ID: {{$id}}')
+            ->removeColumn('password')
+            ->make(true);
+    
     }
      public function create()
   {
@@ -51,19 +61,21 @@ class UsersController extends Controller
    *
    * @return Response
    */
-  public function store()
+  public function store(Request $request)
   {
+      
       $input = Input::all();
         $validation = Validator::make($input, User::$rules);
 
         if ($validation->passes())
         {
             User::create($input);
+            $this->roles()->attach($request->input('role_id'));
 
             return Redirect::route('users.index');
         }
 
-        return Redirect::route('users.create')
+        return Redirect::route('users.index')
             ->withInput()
             ->withErrors($validation)
             ->with('message', 'There were validation errors.');

@@ -17,11 +17,11 @@ class CreatetekpointsTable extends Migration
             $table->string('tradPlaceName', 60)->nullable();
             $table->string('name', 60)->nullable();
             $table->string('description', 500)->nullable();
+            $table->double('y_proj', 15, 8);
+            $table->double('x_proj', 15, 8);
             $table->string('icon');
             $table->string('firstHand')->nullable();
             $table->string('secondHand')->nullable();
-            $table->point('location');
-            $table->polygon('polygon');
             $table->string('zid');  
             $table->string('elev');        
             $table->timestamps();

@@ -3,7 +3,7 @@
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Database\Migrations\Migration;
 
-class CreateContributorTekpointsPivotTable extends Migration
+class CreateContributorTekpointPivotTable extends Migration
 {
     /**
      * Run the migrations.
@@ -12,12 +12,12 @@ class CreateContributorTekpointsPivotTable extends Migration
      */
     public function up()
     {
-        Schema::create('contributor_tekpoints', function (Blueprint $table) {
+        Schema::create('contributor_tekpoint', function (Blueprint $table) {
             $table->integer('contributor_id')->unsigned()->index();
             $table->foreign('contributor_id')->references('id')->on('contributors')->onDelete('cascade');
-            $table->integer('tekpoints_id')->unsigned()->index();
-            $table->foreign('tekpoints_id')->references('id')->on('tekpoints')->onDelete('cascade');
-            $table->primary(['contributor_id', 'tekpoints_id']);
+            $table->integer('tekpoint_id')->unsigned()->index();
+            $table->foreign('tekpoint_id')->references('id')->on('tekpoints')->onDelete('cascade');
+            $table->primary(['contributor_id', 'tekpoint_id']);
         });
     }
 
@@ -28,6 +28,6 @@ class CreateContributorTekpointsPivotTable extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('contributor_tekpoints');
+        Schema::dropIfExists('contributor_tekpoint');
     }
 }

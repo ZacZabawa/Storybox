@@ -20,9 +20,9 @@
     <script type="text/javascript" src="{!! asset('js/webapp.js') !!}"></script>
     <script charset="utf-8" src="//cdn.jsdelivr.net/jquery.validation/1.13.1/jquery.validate.min.js"></script>
     <script type="text/javascript" src="{!! asset('/packages/select2/dist/js/select2.js') !!}"></script>
-    <script> $('#select2').select2();</script>
+    <script> $('select2').select2();</script>
     <script>
-        $('.contributors').DataTable({
+        $('.users').DataTable({
           select: true, });                   
     </script>
 @endsection
@@ -30,39 +30,36 @@
 
 @section('content')   
 
-@if ($contributors->count())
-
+@if ($media->count())
+<div class="wrapper">
   <section class="panel">
     <div class="panel-heading">
-      <h3>Storybox contributors</h3><button class='btn btn-primary' data-toggle="modal" data-target="#addModal">Add New contributor</button>
+      <h3>Media Objects</h3><button type='btn btn-primary' data-toggle="modal" data-target="#addModal">Add Media</button>
     </div>
               <div class="panel-body">
-                  <table id="" class="myTable table table-striped table-bordered contributors">
+                  <table id="" class="myTable table table-striped table-bordered users">
                       <thead>
                           <tr>
-                            <th>First Name</th>
-                            <th>Phone</th>
+                            <th>Name</th>
                             <th>Email</th>
-                            <th>Consent Form</th>
+                            <th>Role</th>
                             <th>Community</th>
                             <th>Edit</th>
                             <th>Delete</th>
                           </tr>
                       </thead>
                         <tbody>
-                          @foreach ($contributors as $contributor)
+                          @foreach ($users as $user)
                               <tr>
-                                <td>{{ $contributor->firstName }}</td>
-                                <td>{{ $contributor->lastName }}</td>
-                              
-                                <td>{{ $contributor->email }}</td>                  
-                                <td>{{ $contributor->email }}</td>   
-                                <td>{{ $contributor->email }}</td>
+                                <td>{{ $user->name }}</td>
+                                <td>{{ $user->email }}</td>                  
+                                <td>{{ $user->email }}</td>   
+                                <td>{{ $user->email }}</td>
 
-                                <td><button class='btn btn-info' data-toggle="modal" data-target="#editModal">Edit contributor</button></td>
+                                <td><button type='btn btn-info' data-toggle="modal" data-target="#editModal">Edit User</button></td>
 
                                  <td>
-                                      {{ Form::open(array('method' => 'DELETE', 'route' => array('contributors.destroy', $contributor->id))) }}                       
+                                      {{ Form::open(array('method' => 'DELETE', 'route' => array('users.destroy', $user->id))) }}                       
                                           {{ Form::submit('Delete', array('class' => 'btn btn-danger')) }}
                                       {{ Form::close() }}
                                   </td>
@@ -73,7 +70,7 @@
                 </div>
               
         </section>
-
+    </div>
     
 
     <div id="addModal" id="attributionModal" tabindex="-1"  class="modal fade" role="dialog">
@@ -81,10 +78,10 @@
          <div class="modal-content">
            <div class="modal-header">
                 <button class="close" type="button" data-dismiss="modal" >&times;</button>
-                <h4 class="modal-title">Add contributor</h4>
+                <h4 class="modal-title">Add User</h4>
             </div> 
             <div class="modal-body"> 
-              @include('partials.addContributorForm')
+              @include('partials.addUserForm')
             </div>
           </div>
     </div>
@@ -96,17 +93,17 @@
          <div class="modal-content">
            <div class="modal-header">
                 <button class="close" type="button" data-dismiss="modal" >&times;</button>
-                <h4 class="modal-title">Edit contributor</h4>
+                <h4 class="modal-title">Edit User</h4>
             </div> 
             <div class="modal-body"> 
-              
+              @include('partials.editUserForm')
             </div>
           </div>
     </div>
   </div>
 
 @else
-    There are no contributors
+    There are no users
 @endif
 
 
@@ -114,51 +111,3 @@
 
 
   
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

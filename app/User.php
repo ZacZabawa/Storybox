@@ -35,4 +35,18 @@ class User extends Model implements AuthenticatableContract,
      * @var array
      */
     protected $hidden = ['password', 'remember_token'];
+
+      public function roles()
+    {
+        return $this->belongsToMany('App\Role');
+    }
+     public function communities()
+    {
+        return $this->belongsToMany('App\community');
+    }
+
+       public function tekpoints()
+    {
+        return $this->hasMany('App\tekpoint');
+    }
 }

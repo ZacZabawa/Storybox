@@ -1,62 +1,44 @@
 @extends('layouts.app')
-  
-    
-
-           
-              
-                    
-         
-
-
  
-    
 @section('header')
     <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Oxygen:400,700">
     <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="//cdn.datatables.net/1.10.7/css/jquery.dataTables.min.css">
-    <link rel="stylesheet" type="text/css" href="{{asset('css/app.css')}}"/> 
-    <link rel="stylesheet" type="text/css" href="{{asset('/packages/select2/dist/css/select2.min.css')}}"/> 
+    <link rel="stylesheet" type="text/css" href="{{asset('css/app.css')}}"> 
+    <link rel="stylesheet" type="text/css" href="{{asset('/packages/select2/dist/css/select2.min.css')}}"> 
 <style type="text/css">
-  .wrapper{
+  #body{
     width: 75%;
     margin: 0 auto;
-    padding:20px;
-
+    padding-top:0px;
   }
 </style>
 @endsection
 
 @section('footer')
-   
     <script charset="utf-8" src="https://cdn.datatables.net/1.10.11/js/jquery.dataTables.min.js"></script>
     <script type="text/javascript" src="{!! asset('js/webapp.js') !!}"></script>
     <script charset="utf-8" src="//cdn.jsdelivr.net/jquery.validation/1.13.1/jquery.validate.min.js"></script>
     <script type="text/javascript" src="{!! asset('/packages/select2/dist/js/select2.js') !!}"></script>
-     <script> $('select2').select2();</script>
-     <script>
-              
-                $('.users').DataTable({
-                    select: true, });
-                   
-</script>
+
+    <script> $('#select2').select2();</script>
+    <script>
+        $('.users').DataTable({
+          select: true, });                   
+    </script>
 @endsection
 
 
 @section('content')   
 
-
-
-      
-   
-
 @if ($users->count())
-<div class="wrapper">
-  <section class="panel>
+
+  <section class="panel">
     <div class="panel-heading">
-      <h3>Storybox Users</h3><button type='btn btn-primary' data-toggle="modal" data-target="#addModal">Add New User</button>
+      <h3>Storybox Users</h3><button class='btn btn-primary' data-toggle="modal" data-target="#addModal">Add New User</button>
     </div>
               <div class="panel-body">
-                  <table id="" class="myTable table table-striped table-bordered users" >
+                  <table id="" class="myTable table table-striped table-bordered users">
                       <thead>
                           <tr>
                             <th>Name</th>
@@ -72,10 +54,10 @@
                               <tr>
                                 <td>{{ $user->name }}</td>
                                 <td>{{ $user->email }}</td>                  
-                                <td>{{ $user->email }}</td>   
+                                <td>{{ $user->$roles->label }}</td>   
                                 <td>{{ $user->email }}</td>
 
-                                <td><button type='btn btn-info' data-toggle="modal" data-target="#editModal">Edit User</button></td>
+                                <td><button class='btn btn-info' data-toggle="modal" data-target="#editModal">Edit User</button></td>
 
                                  <td>
                                       {{ Form::open(array('method' => 'DELETE', 'route' => array('users.destroy', $user->id))) }}                       
@@ -89,7 +71,7 @@
                 </div>
               
         </section>
-    </div>
+  
     
 
     <div id="addModal" id="attributionModal" tabindex="-1"  class="modal fade" role="dialog">

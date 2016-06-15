@@ -4,12 +4,27 @@ namespace App;
 
 use Illuminate\Database\Eloquent\Model;
 
-class Contributor extends Model
+class contributor extends Model
 {
   
  		
 
- 		protected $fillable = ['firstName',
+protected $fillable = ['firstName',
                         'lastName',
-                        'email'];
+                        'phone',
+                        'email',
+                        'community'];
+
+  public function tekpoints()
+    {
+        return $this->belongsToMany('app\tekpoint');
+    }
+
+      public function media()
+    {
+        return $this->belongsToMany('app\media');
+    }
+
 }
+
+ 

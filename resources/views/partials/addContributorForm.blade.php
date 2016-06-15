@@ -1,52 +1,84 @@
 
+{{ Form::open(array('route' => 'contributors.store')) }}
 
- <form class="form-horizontal" role="form" method="POST" action="{{ url('/contributors') }}">
-                        {!! csrf_field() !!}
+ <div class="form-group{{ $errors->has('name') ? ' has-error' : '' }}">
+                            <label class="col-md-4 control-label">First Name</label>
 
-<div class="form-group" margin-right=10px>
-    {!! Form::label('First Name') !!}
-    {!! Form::text('firstName', null, 
-        array('required', 
-              'class'=>'form-control', 
-              'placeholder'=>'First Name')) !!}
-</div>
+                            <div class="col-md-6">
+                                <input type="text" class="form-control" name="firstName" >
 
-<div class="form-group">
-    {!! Form::label('Last Name', 'class'=>'col-md-4 control-label') !!}
-    {!! Form::text('lastName', null, 
-        array('required', 
-              'class'=>'form-control', 
-              'placeholder'=>'Last Name')) !!}
-</div>
-      
-<div class="form-group">
-       <label class="col-md-4 control-label">Community</label>
-       {!! Form::select('community_id', $communities,
-         array('required',
-                'class'=>'form-control', 
-                ))!!}
-        
-        </div>
+                                @if ($errors->has('name'))
+                                    <span class="help-block">
+                                        <strong>{{ $errors->first('name') }}</strong>
+                                    </span>
+                                @endif
+                            </div>
+                        </div>
 
-<div class="form-group">
-    {!! Form::label('Email') !!}
-    {!! Form::text('email', null, 
-        array( 
-              'class'=>'form-control', 
-              'placeholder'=>'Email')) !!}
-</div>
+                         <div class="form-group{{ $errors->has('name') ? ' has-error' : '' }}">
+                            <label class="col-md-4 control-label">Last Name</label>
 
-<div class="form-group">
-    {!! Form::label('Consent Form') !!}
-    {!!Form::checkbox('consent_form', 'value');, 
-        array('required', 
-              'class'=>'form-control', 
-              'placeholder'=>'Your message')) !!}
-</div>
+                            <div class="col-md-6">
+                                <input type="text" class="form-control" name="lastName" >
+
+                                @if ($errors->has('name'))
+                                    <span class="help-block">
+                                        <strong>{{ $errors->first('name') }}</strong>
+                                    </span>
+                                @endif
+                            </div>
+                        </div>
 
 
-<div class="form-group">
-    {!! Form::submit('submit', 
-      array('class'=>'btn btn-primary')) !!}
-</div>
+                        <div class="form-group">
+                           <label class="col-md-4 control-label">Phone Number</label>
+                              <div class="col-md-6"> 
+                            {!! Form::text('phone', null, 
+                                array('null', 
+                                      'class'=>'form-control', 
+                                      'placeholder'=>'Phone Number')) !!}
+                        </div>
+                        </div>
+
+                        <div class="form-group{{ $errors->has('email') ? ' has-error' : '' }}">
+                            <label class="col-md-4 control-label">E-Mail Address</label>
+
+                            <div class="col-md-6">
+                                <input type="email" class="form-control" name="email" value="{{ old('email') }}">
+
+                                @if ($errors->has('email'))
+                                    <span class="help-block">
+                                        <strong>{{ $errors->first('email') }}</strong>
+                                    </span>
+                                @endif
+                            </div>
+                        </div>
+
+                      
+
+
+                    <div class="form-group">
+                         <label class="col-md-4 control-label">Community</label>
+                         <div class="col-md-6">
+                         {!! Form::select('community_id', $communities,
+                          'required',['id' => 'select2', 'class'=>'form-control'])!!}
+                          </div>
+                    </div>
+                         
+                          <div class="form-group">
+                           <label class="col-md-4 control-label">Signed Consent Form</label>
+                              <div class="col-md-6"> 
+                            {!! Form::checkbox('yes', 'consent', 
+                                array('required', 
+                                      'class'=>'form-control' 
+                                      )) !!}
+                        </div>
+
+                        <div class="form-group">
+                            <div class="col-md-4 control-label">
+                                <button type="submit" class="btn btn-primary">
+                                    <i class="fa fa-btn fa-user"></i>Add Contributor
+                                </button>
+                            </div>
+                        </div>
 {!! Form::close() !!}

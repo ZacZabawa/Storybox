@@ -1,5 +1,5 @@
 
-  {!! Form::open(['url' => route('upload-post'), 'class' => 'dropzone', 'files'=>true, 'id'=>'real-dropzone']) !!}
+  {!! Form::open(['url' => route('media.store'), 'class' => 'dropzone', 'files'=>true, 'id'=>'real-dropzone']) !!}
   		
 
   		<div class="form-group">
@@ -38,12 +38,10 @@
 
                <div class="form-group">
        <label class="col-md-4 control-label">Community</label>
-       {!! Form::select'community_id', $communities(,
-       	 array('required',
-	              'class'=>'form-control', 
-	              ))!!}
+         {!! Form::select('community_id', $communities,'required', ['class' => 'select2 form-group'])!!}
+      
         
-        </div>
+     <!--    </div>
 
                <div class="form-group">
        <label class="col-md-4 control-label">Permission</label>
@@ -52,7 +50,7 @@
 	              'class'=>'form-control', 
 	              ))!!}
         
-        </div>
+        </div> -->
 
 	   
 	   <div class="form-group" >

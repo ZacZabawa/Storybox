@@ -150,11 +150,12 @@ return [
         Barryvdh\Debugbar\ServiceProvider::class,
         Yajra\Datatables\DatatablesServiceProvider::class,
         Collective\Html\HtmlServiceProvider::class,
-        Phaza\LaravelPostgis\DatabaseServiceProvider::class,
         Orchestra\Parser\XmlServiceProvider::class,
         Spinen\Geometry\GeometryServiceProvider::class,
         Intervention\Image\ImageServiceProvider::class,
-        
+        Spatie\MediaLibrary\MediaLibraryServiceProvider::class,
+      
+       
         
         /*
          * Application Service Providers...

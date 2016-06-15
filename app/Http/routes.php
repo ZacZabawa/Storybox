@@ -36,19 +36,14 @@
 
 
 Route::group(['middleware' => 'web'], function () {
+
     Route::auth();
     Route::resource('users', 'UsersController');
-    Route::resource('knowledge', 'knowledgeController');
+    Route::resource('tekpoints', 'tekpointController');
     Route::resource('media', 'MediaController');
     Route::resource('contributors', 'ContributorController');
     Route::get('kml', 'kmlController@index');
 	Route::post('kml', 'kmlController@store');
-	
-	Route::get('media', 'MediaController@index');
-	Route::get('media/get/{filename}', [
-		'as' => 'getentry', 'uses' => 'MediaController@get']);
-	Route::post('media/add',[ 
-	        'as' => 'addentry', 'uses' => 'MediaController@add']);
 
     Route::get('/', 'WelcomeController@index');
     Route::get('/home', 'HomeController@index');

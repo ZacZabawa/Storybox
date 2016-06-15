@@ -82,7 +82,8 @@
     <script type="text/javascript" src="{!! asset('/js/dropzoneConfig.js') !!}"></script>
     <script type="text/javascript" src="{!! asset('/packages/select2/dist/js/select2.js') !!}"></script>
 
-    <script> $('select2').select2();</script>
+    <script> $('#tag_list').select2({
+      placeholder: 'Contributor'});</script>
 
 @stop
 
@@ -159,7 +160,7 @@
         <div class="formbar-wrapper">
           <div class="panel panel-default" id="features">
             <div class="panel-heading">
-              <h3 class="panel-title">Add Knowledge
+              <h3 class="panel-title">Add Knowledge Point
               <button type="button" onclick="stopEdits()" class="btn btn-xs btn-default pull-left" id="formbar-hide-btn"><i class="fa fa-chevron-right"></i></button></h3>
             </div>
             <div class="panel-body" id="addFeatures">

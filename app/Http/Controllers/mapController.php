@@ -29,7 +29,7 @@ class mapController extends Controller
     {
         $contributors = contributor::lists('firstName');
         
-        $communities = community::lists('name');
+        $communities = community::lists('name','id');
                
 
         return view('map', compact('communities','contributors', 'tekpoints'));
