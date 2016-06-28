@@ -42,13 +42,19 @@ class UsersController extends Controller
     } //
  public function anyData()
     {
-        return Datatables::of(User::query())->make(true);
-        addColumn('action', function ($user) {
-                return '<a href="#edit-'.$user->id.'" class="btn btn-xs btn-primary"><i class="glyphicon glyphicon-edit"></i> Edit</a>';
-            })
-            ->editColumn('id', 'ID: {{$id}}')
-            ->removeColumn('password')
-            ->make(true);
+        // DB table to use
+        $table = 'users';
+        // Table's primary key
+        $primaryKey = 'users.id';
+        $where = '';
+        $join =' ';
+        $columns = array(
+            array('db' => 'users.id as user_id', 'dt' => 0),
+            array('db' => 'users.name', 'dt' => 1),
+            array('db' => 'users.email', 'dt' => 2),
+            array('db' => 'users.created_at', 'dt' => 3),
+        );
+
     
     }
      public function create()

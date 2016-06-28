@@ -42,18 +42,21 @@
 ******************** The Hero Wrapper
 ****************************************************** -->
   
-<div class="welcome" >
+<div class="welcome" background-image:url('{{ asset('images/BCsatBlack.png') }}') >
+             
             <div class="container ">
              <ul class= 'banner'  >
                 <li id= 'logo'>
                  <!--  <p class="lead">Welcome <br> to</p>
                   <h1>Storybox!</h1>
                   <br/>a place-based knowledge toolkit.</p> -->
-                  <img src="/storybox1.0/public/img/logo.png" alt="app screenshot on tablet and phone" class="img-responsive  wow  " data-wow-delay=".5s">
+                  {{Html::image("/img/logo.png", "Logo",  ['class' => 'img-responsive'])}}
+                  
                </li>
 
                 <li id='title'>
-                 <img src="/storybox1.0/public/img/title..png" alt="app screenshot on tablet and phone" class="img-responsive  wow  " data-wow-delay=".6s"/> 
+                 {{Html::image("/img/title.png", "Title",  ['class' => 'img-responsive'])}}
+                 
                 </li>
               </div>
           </div>

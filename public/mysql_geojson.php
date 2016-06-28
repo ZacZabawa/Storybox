@@ -14,10 +14,10 @@ function wkb_to_json($wkb) {
     return $geom->out('json');
 }
 
-$conn = new PDO('mysql:host=localhost;port=4445;dbname=tekpoints','root', 'zab3703');
+$conn = new PDO('mysql:host=zacharyzabawa.com;port=5432;dbname=tekpoints','forge', 'NQPr2MNtCls6M62oTWCF');
 
 # Build SQL SELECT statement including x and y columns
-$sql = 'SELECT * FROM tekpointsTable';
+$sql = 'SELECT * FROM tekpoints';
 
 
 /*
