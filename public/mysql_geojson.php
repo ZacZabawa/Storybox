@@ -20,7 +20,7 @@ function wkb_to_json($wkb) {
     return $geom->out('json');
 }
 
-$conn = new PDO('pgsql:host=zacharyzabawa.com;port=5432;dbname=tekpoints','forge', 'NQPr2MNtCls6M62oTWCF');
+$conn = new PDO('pgsql:host=zacharyzabawa.com;port=5432;dbname=forge;user=forge;password=NQPr2MNtCls6M62oTWCF');
 
 # Build SQL SELECT statement including x and y columns
 $sql = 'SELECT * FROM tekpoints';
