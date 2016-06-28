@@ -386,7 +386,7 @@ tekPointsClusters = new L.MarkerClusterGroup({
       disableClusteringAtZoom: 16
     });
 
-$.getJSON("MySQL_geojson.php", function (data) {
+$.getJSON("public/MySQL_geojson.php", function (data) {
       tekPoints.addData(data);
       tekPointsClusters.addLayer(tekPoints);
 
