@@ -42,7 +42,7 @@
 ******************** The Hero Wrapper
 ****************************************************** -->
   
-<div class="welcome" background-image:url('{{ asset('images/BCsatBlack.png') }}') >
+<div class="welcome")>
              
             <div class="container ">
              <ul class= 'banner'  >
@@ -50,7 +50,7 @@
                  <!--  <p class="lead">Welcome <br> to</p>
                   <h1>Storybox!</h1>
                   <br/>a place-based knowledge toolkit.</p> -->
-                  {{Html::image("/img/logo.png", "Logo",  ['class' => 'img-responsive'])}}
+                  {{Html::image("/img/Logo.png", "Logo",  ['class' => 'img-responsive'])}}
                   
                </li>
 
@@ -73,7 +73,7 @@
                 <i class="fa fa-eye fa-lg colored"></i> 
                 <h3>Overview</h3>
                 <p class="lead">Storybox is a free and open source tool for communties to map and protect their place-based knowledge. <br>
-                Our aim is to empower community researchers by reducing the workflow required in documenting traditional knowldege.</p>
+                Our aim is to empower community researchers by reducing the workflow required in documenting traditional knowledge.</p>
               </div>
             </div>
             <div class="row">

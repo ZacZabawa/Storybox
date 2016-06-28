@@ -8,13 +8,19 @@
  */
 
 # Connect to MySQL database
+ 'host' => env('DB_HOST', 'localhost'),
+            'port' => env('DB_PORT', '4445'),
+            'database' => env('DB_DATABASE', 'storybox'),
+            'username' => env('DB_USERNAME', 'root'),
+            'password' => env('DB_PASSWORD', 'zab3703'),
+
 include_once('geoPHP/geoPHP.inc');
 function wkb_to_json($wkb) {
     $geom = geoPHP::load($wkb,'wkb');
     return $geom->out('json');
 }
 
-$conn = new PDO('mysql:host=zacharyzabawa.com;port=5432;dbname=tekpoints','forge', 'NQPr2MNtCls6M62oTWCF');
+$conn = new PDO('pgsql:host=zacharyzabawa.com;port=5432;dbname=tekpoints','forge', 'NQPr2MNtCls6M62oTWCF');
 
 # Build SQL SELECT statement including x and y columns
 $sql = 'SELECT * FROM tekpoints';

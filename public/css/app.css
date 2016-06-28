@@ -30,12 +30,12 @@ html, body, #container {
 
 @font-face {
     font-family: TitleFont;
-    src: url(/storybox1.0/public/fonts/Moon Light.otf);
+    src: url("/storybox1.0/public/fonts/Moon Light.otf");
 }
 
 
 .welcome{
-
+background-image: url("/storybox1.0/public/img/BCsatBlack.png");
 background-size: cover;
 height: 90%;
 
