@@ -73,7 +73,7 @@
                 <i class="fa fa-eye fa-lg colored"></i> 
                 <h3>Overview</h3>
                 <p class="lead">Storybox is a free and open source tool for communties to map and protect their place-based knowledge. <br>
-                Our aim is to empower community researchers by reducing the workflow required in documenting traditional knowlege.</p>
+                Our aim is to empower community researchers by reducing the workflow required in documenting traditional knowldege.</p>
               </div>
             </div>
             <div class="row">
@@ -109,7 +109,7 @@
           <div class="col-md-12">
             <i class="fa fa-life-ring colored fa-lg"></i>  
             <h3>Need some help?</h3>
-            <p class="lead">Drop us a line and visit us</p>
+            <p class="lead">Send us a message</p>
           </div>
         </div>
         <div class="row">

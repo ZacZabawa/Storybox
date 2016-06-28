@@ -53,8 +53,6 @@ Route::group(['middleware' => 'web'], function () {
     'anyData'  => 'datatables.data',
     'getIndex' => 'datatables',
             ]);
-Route::controllers([
-    'table'=>'TableController',
-]);
+
 
 });
