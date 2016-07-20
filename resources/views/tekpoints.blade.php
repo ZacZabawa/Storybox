@@ -29,7 +29,7 @@
     <script> $('#select2').select2();</script>
      <script>
        
-            $('#userTable').DataTable({
+            $('#tekpointTable').DataTable({
                 select: true, });
   
       
@@ -39,46 +39,59 @@
 
 @section('content')   
 
-@if ($users->count())
+
 
   <section class="panel">
     <div class="panel-heading">
-      <h3>Storybox Users</h3><button class='btn btn-primary' data-toggle="modal" data-target="#addModal">Add New User</button>
+      <h3>Storybox Knowledge Points</h3>
+      
+      <button class='btn btn-primary' data-toggle="modal" data-target="#addModal">Add New Point</button>
+
+      <button class='btn btn-secondary' data-toggle="modal" data-target="#addModal">Add New Point Type Modal</button>
+
+      <button class='btn btn-warning'  href="{{ url('/types') }}">Add New Point Type Page</button>
     </div>
+<br>
+  @if ($tekpoints->count())
               <div class="panel-body">
-                 <table id="userTable" class="myTable table table-striped table-bordered" cellspacing="0" width="100%">
+                 <table id="tekpointTable" class="myTable table table-striped table-bordered" cellspacing="0" width="100%">
                     <thead>
                         <tr>
-                            <th>Name</th>
-                            <th>Email</th>
-                            <th>Role</th>
-                            <th>Community</th>
+                            <th>Traditional Place Name</th>
+                            <th>Current Name</th>
+                            <th>Description</th>
+                            <th>Contributor</th>
+                            <th>Y</th>
+                            <th>X</th>
+                            <th>First Hand</th>
                             <th>Created At</th>
                             <th>Actions</th>
                         </tr>
                      </thead>
                         <tbody>
-                          @foreach ($users as $user)
+                          @foreach ($tekpoints as $tekpoint)
                               <tr>
-                                <td>{{ $user->name }}</td>
+                                <td>{{ $tekpoint->tradPlaceName }}</td>
                               
-                                <td>{{ $user->email }}</td>
+                                <td>{{ $tekpoint->name }}</td>
 
-                                <td>{{ $user->role }}</td>
+                                <td>{{ $tekpoint->description }}</td>
 
-                                <td>{{ $user->community }}</td>   
+                                <td>{{ $tekpoint->contributor_id }}</td>   
                                 
-                                <td>{{ $user->created_at }}</td>
-
+                                <td>{{ $tekpoint->y}}</td>
+                                <td>{{ $tekpoint->x}}</td>
+                                <td>{{ $tekpoint->firstHand}}</td>
+                                <td>{{ $tekpoint->created_at}}</td>
                                 <td>
 
                                 <div class='row'>
                                    <div class="col-sm-4">
 
-                                  <button class='btn btn-info' href="{{route('users.edit',$user->id)}}"  value="{{$user->id}}"data-toggle="modal" data-target="#editModal">Edit user</button>
+                                  <button class='btn btn-info' href="{{route('tekpoints.edit',$tekpoint->id)}}"  value="{{$tekpoint->id}}"data-toggle="modal" data-target="#editModal">Edit tekpoint</button>
                                     </div>  
                                   <div class="col-sm-4">
-                                      {{ Form::open(array('method' => 'DELETE', 'route' => array('users.destroy', $user->id))) }}                       
+                                      {{ Form::open(array('method' => 'DELETE', 'route' => array('tekpoints.destroy', $tekpoint->id))) }}                       
                                       {{ Form::submit('Delete', array('class' => 'btn btn-danger')) }}
                                       {{ Form::close() }}
                                   </div>
@@ -94,20 +107,20 @@
         </section>
   
     
-
+{{-- 
     <div id="addModal" id="attributionModal" tabindex="-1"  class="modal fade" role="dialog">
      <div class="modal-dialog">
          <div class="modal-content">
            <div class="modal-header">
                 <button class="close" type="button" data-dismiss="modal" >&times;</button>
-                <h4 class="modal-title">Add User</h4>
+                <h4 class="modal-title">Add tekpoint</h4>
             </div> 
             <div class="modal-body"> 
-              @include('partials.addUserForm')
+              @include('partials.addTekpointForm')
             </div>
           </div>
     </div>
-  </div>
+  </div> --}}
 
 
     <div id="editModal" id="attributionModal" tabindex="-1"  class="modal fade" role="dialog">
@@ -115,21 +128,18 @@
          <div class="modal-content">
            <div class="modal-header">
                 <button class="close" type="button" data-dismiss="modal" >&times;</button>
-                <h4 class="modal-title">Edit User</h4>
+                <h4 class="modal-title">Edit tekpoint</h4>
             </div> 
             <div class="modal-body"> 
-              @include('partials.editUserForm')
+              @include('partials.addTekpointForm')
             </div>
           </div>
     </div>
   </div>
 
 @else
-    There are no users
+    There are no tekpoints
 @endif
 
 
 @endsection
-
-
-  

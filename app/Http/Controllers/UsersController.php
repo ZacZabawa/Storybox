@@ -6,6 +6,7 @@ use App\DataTables\UsersDataTable;
 
 use App\community;
 use App\Role;
+use App\HasRoles;
 use View;
 use Input;
 use Validator;
@@ -36,27 +37,40 @@ class UsersController extends Controller
 
        $users = User::all();
        $communities = community::lists('name');
-       $roles = role::lists('label');
-       return View::make('users')->with(compact('users','communities', 'roles'));
+       $roles = Role::lists('label','id');
+       return view('users', compact('users','communities','roles'));
        
     } //
  public function anyData()
-    {
-        // DB table to use
-        $table = 'users';
-        // Table's primary key
-        $primaryKey = 'users.id';
-        $where = '';
-        $join =' ';
-        $columns = array(
-            array('db' => 'users.id as user_id', 'dt' => 0),
-            array('db' => 'users.name', 'dt' => 1),
-            array('db' => 'users.email', 'dt' => 2),
-            array('db' => 'users.created_at', 'dt' => 3),
-        );
-
+     {
+     // $hasRoles = User::find(1)->()->with('user'); 
+     return Datatables::of(User::query())->make(true);
+        addColumn('action', function ($user) {
+                return '<a href="#edit-'.$user->id.'" class="btn btn-xs btn-primary"><i class="glyphicon glyphicon-edit"></i> Edit</a>';
+            })
+            ->editColumn('id', 'ID: {{$id}}')
+            ->removeColumn('password')
+            ->make(true);
     
     }
+    // 
+    // 
+    // {   require base_path() . '/vendor/server_side/ssp.php';
+    //     // DB table to use
+    //     $table = 'users';
+    //     // Table's primary key
+    //     $primaryKey = 'users.id';
+    //     $where = '';
+    //     $join =' ';
+    //     $columns = array(
+    //         array('db' => 'users.id as user_id', 'dt' => 0),
+    //         array('db' => 'users.name', 'dt' => 1),
+    //         array('db' => 'users.email', 'dt' => 2),
+    //         array('db' => 'users.created_at', 'dt' => 3),
+    //     );}
+
+    
+    
      public function create()
   {
     return View::make('users.create');
@@ -69,23 +83,33 @@ class UsersController extends Controller
    */
   public function store(Request $request)
   {
-      
-      $input = Input::all();
-        $validation = Validator::make($input, User::$rules);
+      //find the role by id
+ // dd($request);
+$user = User::create($request->all());
+// assign the role to a user based on the select box from the form.
 
-        if ($validation->passes())
-        {
-            User::create($input);
-            $this->roles()->attach($request->input('role_id'));
+// $userid = user::find($request->id);
+$user->roles()->attach($request->role_id);
+$user->communities()->attach($request->community_id);
+
+// return a view
+
+      // $input = Input::all();
+      //   $validation = Validator::make($input, User::$rules);
+
+      //   if ($validation->passes())
+      //   {
+            // User::create($input);
+            // $user->assignRoles('role_id');
 
             return Redirect::route('users.index');
         }
 
-        return Redirect::route('users.index')
-            ->withInput()
-            ->withErrors($validation)
-            ->with('message', 'There were validation errors.');
-    }
+        // return Redirect::route('users.index')
+        //     ->withInput()
+        //     ->withErrors($validation)
+        //     ->with('message', 'There were validation errors.');
+    
   
 
   /**
@@ -108,10 +132,10 @@ class UsersController extends Controller
   public function edit($id)
   {
  $user = User::find($id);
-        if (is_null($user))
-        {
-            return Redirect::route('users.index');
-        }
+        // if (is_null($user))
+        // {
+        //     return Redirect::route('users.index');
+        // }
         return View::make('users.edit', compact('user'));
   }
 
@@ -123,12 +147,12 @@ class UsersController extends Controller
    */
   public function update($id)
   {
-    $input = Input::all();
+    $userUpdate = request::all();
         $validation = Validator::make($input, User::$rules);
         if ($validation->passes())
         {
             $user = User::find($id);
-            $user->update($input);
+            $user->update($userUpdate);
             return Redirect::route('users.index');
         }
 return Redirect::route('users.edit', $id)

@@ -19,8 +19,12 @@ class tekpoint extends Model
     protected $fillable = [
         'tradPlaceName',
         'description',
-     
-        'currentPlaceName'
+        'y',
+        'x',
+        'name',
+        'icon',
+        'zid',
+        'elev'
     ];
 
     

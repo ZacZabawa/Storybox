@@ -1,10 +1,10 @@
 
 
-{!! Form::open(array('url' => 'tekpoints')) !!}
+{!! Form::open(array('route' => 'tekpoints.store')) !!}
 
 <div class="form-group" margin-right=10px>
     {!! Form::label('Traditional Place Name') !!}
-    {!! Form::text('TradPlaceName', null, 
+    {!! Form::text('tradPlaceName', null, 
         array('required', 
               'class'=>'form-control', 
               'placeholder'=>'Traditional Place Name')) !!}
@@ -12,7 +12,7 @@
 
 <div class="form-group">
     {!! Form::label('Current Name') !!}
-    {!! Form::text('CurrentPlaceName', null, 
+    {!! Form::text('name', null, 
         array('required', 
               'class'=>'form-control', 
               'placeholder'=>'Current Place Name')) !!}
@@ -24,22 +24,20 @@
         
         </div>
 
-    <div class="form-group">
-       <label >Community</label>
-       {!! Form::select('community_id', $communities,
-        'required',['id' => 'tag_list', 'class'=>'form-control'])!!}
-        
-        </div>
 
 
 <div class="form-group">
     {!! Form::label('Contextual Description') !!}
-    {!! Form::textarea('Description', null, 
+    {!! Form::textarea('description', null, 
         array('required', 
               'class'=>'form-control', 
               'placeholder'=>'Description Here')) !!}
 </div>
-
+{{ Form::hidden('y', '-122.2141238') }}  
+{{ Form::hidden('x', '50.76711491') }} 
+{{ Form::hidden('icon', 'yes') }}  
+{{ Form::hidden('zid', '0') }}
+{{ Form::hidden('elev', '0') }}    
 <div class="dz-message">
 
                 </div>

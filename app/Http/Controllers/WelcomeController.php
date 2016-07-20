@@ -22,4 +22,17 @@ class WelcomeController extends Controller
     {
         return view('welcome');
     }
-}
+
+ //    public function store(Request $request)
+
+ //    {
+ //        $input = Input::all();
+ //        $validation = Validator::make($input, User::$rules);
+ //        return Redirect::route('welcome.thanks');
+ //    }
+
+ //    public function thanks()
+ //    {
+ //        return view('thanks');
+ //    }
+ }

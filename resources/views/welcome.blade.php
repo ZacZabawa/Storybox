@@ -42,7 +42,7 @@
 ******************** The Hero Wrapper
 ****************************************************** -->
   
-<div class="welcome")>
+<div class="welcome">
              
             <div class="container ">
              <ul class= 'banner'  >

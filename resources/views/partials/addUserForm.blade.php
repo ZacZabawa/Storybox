@@ -1,87 +1,32 @@
 {{ Form::open(array('route' => 'users.store')) }}
                         {!! csrf_field() !!}
 
-                        <div class="form-group{{ $errors->has('name') ? ' has-error' : '' }}">
-                            <label class="col-md-4 control-label">Name</label>
+                        <div class="form-group" margin-right=10px>
+    {!! Form::label('Name') !!}
+    {!! Form::text('name', null, 
+        array('required', 
+              'class'=>'form-control', 
+              'placeholder'=>'Full Name')) !!}
+</div>
 
-                            <div class="col-md-6">
-                                <input type="text" class="form-control" name="name" value="{{ old('name') }}">
+<div class="form-group">
+    {!! Form::label('Email Address') !!}
+    {!! Form::text('email', null, 
+        array('required', 
+              'class'=>'form-control', 
+              'placeholder'=>'Email')) !!}
+</div>
 
-                                @if ($errors->has('name'))
-                                    <span class="help-block">
-                                        <strong>{{ $errors->first('name') }}</strong>
-                                    </span>
-                                @endif
-                            </div>
-                        </div>
-
-                       
-
-                        <div class="form-group{{ $errors->has('email') ? ' has-error' : '' }}">
-                            <label class="col-md-4 control-label">E-Mail Address</label>
-
-                            <div class="col-md-6">
-                                <input type="email" class="form-control" name="email" value="{{ old('email') }}">
-
-                                @if ($errors->has('email'))
-                                    <span class="help-block">
-                                        <strong>{{ $errors->first('email') }}</strong>
-                                    </span>
-                                @endif
-                            </div>
-                        </div>
-
-                        <div class="form-group{{ $errors->has('password') ? ' has-error' : '' }}">
-                            <label class="col-md-4 control-label">Password</label>
-
-                            <div class="col-md-6">
-                                <input type="password" class="form-control" name="password">
-
-                                @if ($errors->has('password'))
-                                    <span class="help-block">
-                                        <strong>{{ $errors->first('password') }}</strong>
-                                    </span>
-                                @endif
-                            </div>
-                        </div>
-
-                        <div class="form-group{{ $errors->has('password_confirmation') ? ' has-error' : '' }}">
-                            <label class="col-md-4 control-label">Confirm Password</label>
-
-                            <div class="col-md-6">
-                                <input type="password" class="form-control" name="password_confirmation">
-
-                                @if ($errors->has('password_confirmation'))
-                                    <span class="help-block">
-                                        <strong>{{ $errors->first('password_confirmation') }}</strong>
-                                    </span>
-                                @endif
-                            </div>
-                        </div>
+{{ Form::hidden('password', 'password') }}  
 
 
-                        <div class="form-group">
-                           <label class="col-md-4 control-label">Community</label>
-                              <div class="col-md-6"> 
-                              {!! Form::select('community_id', $communities,'required', ['id' => 'select2 ','class' => 'form-group'])!!}
-                            
-                             </div>
-                         </div>
-                         <div class="form-group">
-                           <label class="col-md-4 control-label">role</label>
-                           <div class="col-md-6"> 
-                           {!! Form::select('role_id', $roles,
-                             array('required',
-                                    'class'=>'form-control', 
-                                    ))!!}
-                            </div>
-                        </div>
+     <div class="form-group">
+       <label >Role</label>
+       {!! Form::select('role_id', $roles,'required', ['id' => 'multiple', 'class'=>'form-control'])!!}  
+     </div>
 
-                        <div class="form-group">
-                            <div class="col-md-6 col-md-offset-4">
-                                <button type="submit" class="btn btn-primary">
-                                    <i class="fa fa-btn fa-user"></i>Add User 
-                                </button>
-                            </div>
-                        </div>
+    <div class="form-group">
+        {!! Form::submit('Add User', 
+          array('class'=>'btn btn-primary')) !!}
+    </div>
                     </form>

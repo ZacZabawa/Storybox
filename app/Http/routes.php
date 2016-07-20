@@ -45,14 +45,12 @@ Route::group(['middleware' => 'web'], function () {
     Route::get('kml', 'kmlController@index');
 	Route::post('kml', 'kmlController@store');
 
-    Route::get('/', 'WelcomeController@index');
+    Route::resource('/', 'WelcomeController@index');
     Route::get('/home', 'HomeController@index');
     Route::get('/map', 'mapController@index');
-    Route::get('/table', 'tableController@index');
-    Route::controller('datatables', 'DatatablesController', [
-    'anyData'  => 'datatables.data',
-    'getIndex' => 'datatables',
-            ]);
+    Route::resource('types', 'PointTypeController');
+    
+  
 
 
 });

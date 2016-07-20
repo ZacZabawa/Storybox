@@ -1,5 +1,5 @@
 
-{!! Form::open(array('url' => '/register')) !!}
+{{-- {!! Form::open(array('route' => 'welcome.store')) !!} --}}
 
 <div class="form-group" margin-right=10px>
     {!! Form::label('Name') !!}

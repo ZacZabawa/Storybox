@@ -25,13 +25,13 @@
                 <li><a href="#start">Record</a></li>
                 <li><a href="{{ url('/map') }}">Territory</a></li>
 
-              @can('Everything')
+              @can('admin')
                 <li class="dropdown">
                   <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Knowledge <span class="caret"></span></a>
                   <ul class="dropdown-menu">
             
                     <li><a href="{{ url('/users') }}">Users</a></li>
-                    <li><a href="{{ url('/knowledge') }}">Knowledge</a></li>
+                    <li><a href="{{ url('/tekpoints') }}">Knowledge</a></li>
                     <li><a href="{{ url('/contributors') }}">Contributors</a></li>
                     <li><a href="{{ url('/media') }}">Add Media</a></li>
                     <li><a href="{{ url('/kml') }}">upload</a></li>

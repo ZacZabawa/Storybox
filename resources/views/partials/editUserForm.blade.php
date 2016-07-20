@@ -1,29 +1,23 @@
 
 
-{!! Form::open(array('url' => '/update')) !!}
+{!! Form::model($user,['method' => 'PATCH','route' => ['users.update', $user->id]]) !!}
 
 <div class="form-group" margin-right=10px>
     {!! Form::label('Name') !!}
-    {!! Form::text('TradPlaceName', null, 
+    {!! Form::text('name', null, 
         array('required', 
               'class'=>'form-control', 
-              'placeholder'=>'Full Name')) !!}
+              )) !!}
 </div>
 
 <div class="form-group">
     {!! Form::label('Email Address') !!}
-    {!! Form::text('CurrentPlaceName', null, 
+    {!! Form::text('email', null, 
         array('required', 
               'class'=>'form-control', 
-              'placeholder'=>'Email')) !!}
+              )) !!}
 </div>
 
-  
-
-    <div class="form-group">
-       <label >Community</label>
-       {!! Form::select('community_id', $communities,'required', ['id' => 'select2', 'class'=>'form-control'])!!}  
-     </div>
 
      <div class="form-group">
        <label >Role</label>

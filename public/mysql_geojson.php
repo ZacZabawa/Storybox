@@ -6,26 +6,17 @@
  * Contact: bryanmcbride.com
  * GitHub:  https://github.com/bmcbride/PHP-Database-GeoJSON
  */
-
-# Connect to MySQL database
- 'host' => env('DB_HOST', 'localhost'),
-            'port' => env('DB_PORT', '4445'),
-            'database' => env('DB_DATABASE', 'storybox'),
-            'username' => env('DB_USERNAME', 'root'),
-            'password' => env('DB_PASSWORD', 'zab3703'),
-
+$sql = DB::table('tekpoints')->select('*');
 include_once('geoPHP/geoPHP.inc');
 function wkb_to_json($wkb) {
     $geom = geoPHP::load($wkb,'wkb');
     return $geom->out('json');
 }
 
-$conn = new PDO('pgsql:host=zacharyzabawa.com;port=5432;dbname=forge;user=forge;password=NQPr2MNtCls6M62oTWCF');
 
 # Build SQL SELECT statement including x and y columns
-$sql = 'SELECT * FROM tekpoints';
 
-
+console.log($sql)
 /*
 * If bbox variable is set, only return records that are within the bounding box
 * bbox should be a string in the form of 'southwest_lng,southwest_lat,northeast_lng,northeast_lat'
